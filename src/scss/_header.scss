@@ -15,6 +15,16 @@
             max-width: 100%;
         }
     }
+    &__background {
+        z-index: 10;
+    }
+    &__logos {
+        position: absolute;
+        top: 0;
+        right: 0;
+        max-width: 780px;
+        z-index: 1;
+    }
 }
 
 .menu {
@@ -25,6 +35,7 @@
     }
     &__item {
         margin-right: 93px;
+        z-index: 10;
     }
     &__item:last-child {
         margin-right: 63px;
@@ -35,6 +46,7 @@
         font-size: 1.28rem;
         color: $maincolor;
         transition: color .2s linear;
+        z-index: 10;
     }
     &__link:hover {
         color: #838383 ;

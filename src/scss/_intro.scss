@@ -1,0 +1,28 @@
+.intro {
+    margin-top: 269px;
+    margin-bottom: 260px;
+    &__logo {
+        display: flex;
+        align-items: center;
+
+        margin-bottom: 26px;
+    }
+    &__img {
+        margin-right: 12px;
+        img {
+            max-width: 100%;
+        }
+    }
+    &__img:last-child {
+        margin-right: 0px;
+    }
+    &__title {
+        font-family: Rubik;
+        font-weight: 600;
+        font-size: 55px;
+        line-height: 65 / 55 * 100%;
+        max-width: 609px;
+
+        margin-bottom: 90px;
+    }
+}
