@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@font-face {
+  font-family: FontsFree;
+  font-display: swap;
+  src: url("../fonts/FontsFree-Net-SFProText-Medium.woff2") format("woff2"), url("../fonts/FontsFree-Net-SFProText-Medium.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+/* Обнуление */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 142px;
+}
+.header__logo img {
+  max-width: 100%;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu__list {
+  display: flex;
+}
+.menu__item {
+  margin-right: 93px;
+}
+.menu__item:last-child {
+  margin-right: 63px;
+}
+.menu__link {
+  font-family: Rubik;
+  font-weight: 300;
+  font-size: 1.28rem;
+  color: #EEF3FF;
+  transition: color 0.2s linear;
+}
+.menu__link:hover {
+  color: #838383;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+}
+
+body {
+  font-family: Open Sans, Rubik, Fira Sans Condensed, SF Pro Text, Inter, Lato;
+  font-size: 14px;
+  color: #EEF3FF;
+  background-color: #2B2D3A;
+}
+
+/* ----------------*/
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+}
+
+/* ----------------*/
+[class*=__container] {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

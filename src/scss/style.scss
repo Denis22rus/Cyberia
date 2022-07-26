@@ -1,0 +1,38 @@
+$minWidth: 320px;
+$maxWidth: 1440px;
+$maxWidthContainer: 1258px;
+$md1: 991.98px;
+$md2: 767.98px;
+$md3: 479.98px;
+
+$maincolor: #EEF3FF;
+
+@import "fonts";
+@import "_nullstyle.scss";
+@import "_header.scss";
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+}
+
+body {
+    font-family: Open Sans, Rubik, Fira Sans Condensed, SF Pro Text, Inter, Lato;
+    font-size: 14px;
+    color: $maincolor;
+    background-color: #2B2D3A;
+  }
+
+  /* ----------------*/
+  .wrapper {
+    overflow: hidden;
+    min-height: 100%;
+  }
+
+  /* ----------------*/
+  [class*="__container"] {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }

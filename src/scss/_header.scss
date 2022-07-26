@@ -1,0 +1,42 @@
+.header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 142px;
+    }
+    &__logo {
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    &__list {
+        display: flex;
+    }
+    &__item {
+        margin-right: 93px;
+    }
+    &__item:last-child {
+        margin-right: 63px;
+    }
+    &__link {
+        font-family: Rubik;
+        font-weight: 300;
+        font-size: 1.28rem;
+        color: $maincolor;
+        transition: color .2s linear;
+    }
+    &__link:hover {
+        color: #838383 ;
+    }
+}
