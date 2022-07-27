@@ -22,8 +22,10 @@
         position: absolute;
         top: 0;
         right: 0;
-        max-width: 780px;
         z-index: 1;
+        @media (max-width: 1831px) {
+            max-width: 750px;
+        }
     }
 }
 
@@ -44,11 +46,11 @@
         font-family: Rubik;
         font-weight: 300;
         font-size: 1.28rem;
-        color: $maincolor;
+        color: $mainColor;
         transition: color .2s linear;
         z-index: 10;
     }
     &__link:hover {
-        color: #838383 ;
+        color: $mainHover ;
     }
 }

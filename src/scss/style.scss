@@ -5,12 +5,14 @@ $md1: 991.98px;
 $md2: 767.98px;
 $md3: 479.98px;
 
-$maincolor: #EEF3FF;
+$mainColor: #EEF3FF;
+$mainHover: #2D76F9;
 
 @import "fonts";
 @import "_nullstyle.scss";
 @import "_header.scss";
 @import "_intro.scss";
+@import "_services.scss";
 
 html,
 body {
@@ -21,7 +23,7 @@ body {
 body {
     font-family: Open Sans, Rubik, Fira Sans Condensed, SF Pro Text, Inter, Lato;
     font-size: 14px;
-    color: $maincolor;
+    color: $mainColor;
     background-color: #2B2D3A;
 }
 
@@ -52,4 +54,11 @@ body {
 }
 .btn:hover {
     background-color: #153a7d;
+}
+.strip {
+    content: "";
+    display: block;
+    max-width: 100%;
+    height: 2px;
+    background-color: #2D76F9;
 }
