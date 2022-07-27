@@ -13,6 +13,7 @@ $mainHover: #2D76F9;
 @import "_header.scss";
 @import "_intro.scss";
 @import "_services.scss";
+@import "_projects.scss";
 
 html,
 body {
@@ -61,4 +62,10 @@ body {
     max-width: 100%;
     height: 2px;
     background-color: #2D76F9;
+}
+.title-body {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 2.7rem;
+    color: #EFF3FF;
 }

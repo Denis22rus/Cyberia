@@ -1,0 +1,82 @@
+.projects {
+    margin-bottom: 110px;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 85px;
+    }
+    &__items {
+        display: flex;
+        margin: 0px -20px 42px;
+
+    }
+    &__items:last-child {
+        display: flex;
+        margin: 0px -20px 0px;
+    }
+    &__column {
+        flex: 0 1 33.333%;
+        padding: 0px 20px;
+    }
+    &__logo {
+        margin-bottom: 8px;
+    }
+    &__post-title {
+        font-family: Rubik;
+        font-weight: 500;
+        font-size: 1.8rem;
+        color: #fff;
+
+        margin-bottom: 7px;
+    }
+    &__post-subtitle {
+        font-weight: 400;
+        line-height: 22 / 14 * 100%;
+        color: #fff;
+    }
+
+
+
+    &__item-one {
+        background: url(../img/projects/One.jpg) no-repeat center / cover;
+        height: 378px;
+        height: 100%;
+        padding: 211px 64px 29px 29px;
+        border-radius: 5px;
+    }
+    &__item-two {
+        background: url(../img/projects/Two.jpg) no-repeat center / cover;
+        height: 378px;
+        height: 100%;
+        padding: 211px 64px 29px 29px;
+        border-radius: 5px;
+    }
+    &__item-three {
+        background: url(../img/projects/Three.jpg) no-repeat center / cover;
+        height: 378px;
+        height: 100%;
+        padding: 211px 64px 29px 29px;
+        border-radius: 5px;
+    }
+    &__item-four {
+        background: url(../img/projects/Four.jpg) no-repeat center / cover;
+        height: 378px;
+        height: 100%;
+        padding: 211px 64px 29px 29px;
+        border-radius: 5px;
+    }
+    &__item-five {
+        background: url(../img/projects/Five.jpg) no-repeat center / cover;
+        height: 378px;
+        height: 100%;
+        padding: 211px 64px 29px 29px;
+        border-radius: 5px;
+    }
+    &__item-six {
+        background: url(../img/projects/Six.jpg) no-repeat center / cover;
+        height: 378px;
+        height: 100%;
+        padding: 211px 64px 29px 29px;
+        border-radius: 5px;
+    }
+}
