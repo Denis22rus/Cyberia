@@ -14,6 +14,8 @@ $mainHover: #2D76F9;
 @import "_intro.scss";
 @import "_services.scss";
 @import "_projects.scss";
+@import "_interests.scss";
+@import "_news.scss";
 
 html,
 body {
@@ -63,9 +65,28 @@ body {
     height: 2px;
     background-color: #2D76F9;
 }
+.header-with-arrow {
+    display: flex;
+    justify-content: space-between;
+}
 .title-body {
     font-family: Rubik;
     font-weight: 500;
     font-size: 2.7rem;
     color: #EFF3FF;
+
+    margin-bottom: 85px;
+}
+.post-title {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #fff;
+}
+.news__item-title {
+    font-size: 24px;
+}
+.post-subtitle {
+    font-weight: 400;
+    line-height: 22 / 14 * 100%;
 }
