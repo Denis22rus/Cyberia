@@ -354,6 +354,76 @@ h6 {
   right: 27px;
 }
 
+.tell-my {
+  background-color: #252636;
+  padding: 95px 0px;
+}
+.tell-my__items {
+  display: flex;
+  margin: 0px -40px;
+}
+.tell-my__row-left {
+  flex: 0 1 50%;
+  padding: 0px 40px;
+}
+.tell-my__img {
+  margin-bottom: 14px;
+}
+.tell-my__img img {
+  max-width: 100%;
+}
+.tell-my__title {
+  margin-bottom: 20px;
+}
+.tell-my__subtitle {
+  display: flex;
+  flex: 0 1 320px;
+  margin-left: 40px;
+  align-items: center;
+}
+
+.form {
+  flex: 0 1 50%;
+  padding: 0px 40px;
+}
+.form__group {
+  margin-bottom: 32px;
+}
+.form__group-paper {
+  position: absolute;
+}
+.form__groups {
+  display: flex;
+  min-height: 57px;
+}
+
+.input {
+  color: #EEF3FF;
+  background-color: #252636;
+  display: block;
+  width: 100%;
+  padding: 17px 18px;
+  font-family: inherit;
+  font-size: 1rem;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.textarea {
+  background: url(../img/tell-my/Paperclip.png) 535px 50px no-repeat;
+  height: 92px;
+  color: #EEF3FF;
+  background-color: #252636;
+  display: block;
+  width: 100%;
+  padding: 17px 18px;
+  font-family: inherit;
+  font-size: 1rem;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  resize: none;
+}
+
 html,
 body {
   height: 100%;
@@ -384,17 +454,27 @@ body {
 .btn {
   font-weight: 300;
   font-size: 0.92rem;
+  cursor: pointer;
   display: inline-block;
   padding: 20px 48px;
   color: #fff;
   background-color: #2D76F9;
-  transition: background-color 0.2s linear;
   border-radius: 35px;
   text-transform: uppercase;
+  transition: background-color 0.2s linear;
 }
 
 .btn:hover {
   background-color: #153a7d;
+}
+
+.tell-my__btn {
+  display: flex;
+  max-height: 57px;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  flex: 0 1 247px;
 }
 
 .strip {

@@ -6,6 +6,7 @@ $md2: 767.98px;
 $md3: 479.98px;
 
 $mainColor: #EEF3FF;
+$twoColor: #EFF3FF;
 $mainHover: #2D76F9;
 
 @import "fonts";
@@ -16,6 +17,7 @@ $mainHover: #2D76F9;
 @import "_projects.scss";
 @import "_interests.scss";
 @import "_news.scss";
+@import "_tell-my.scss";
 
 html,
 body {
@@ -46,17 +48,25 @@ body {
 .btn {
     font-weight: 300;
     font-size: 0.92rem;
-
+    cursor: pointer;
     display: inline-block;
     padding: 20px 48px;
     color: #fff;
     background-color: #2D76F9;
-    transition: background-color .2s linear;
     border-radius: 35px;
     text-transform: uppercase;
+    transition: background-color .2s linear;
 }
 .btn:hover {
     background-color: #153a7d;
+}
+.tell-my__btn {
+    display: flex;
+    max-height: 57px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    flex: 0 1 247px;
 }
 .strip {
     content: "";
