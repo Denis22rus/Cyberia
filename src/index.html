@@ -259,21 +259,21 @@
                         <div class="post-title tell-my__title">Расскажите <br> о вашем проекте</div>
                         <div class="post-subtitle">Поделитесь с нами информацией, чем мы можем быть полезны: реализовать идею или выделить разработчиков для ИТ-команды. Чем больше вы нам расскажете — тем продуктивнее будет дальнейшее обсуждение.</div>
                     </div>
-                    <form action="#" class="form tell-my" method="post" id="form">
-                        <div class="form__group">
-                            <input type="text" class="input _req" name="name" placeholder="Имя" id="FormName">
+                    <form action="#" id="form" class="form tell-my">
+                        <div class="form__item">
+                            <input type="text" class="form__input _req" name="name" placeholder="Имя" id="FormName">
                         </div>
-                        <div class="form__group">
-                            <input type="email" class="input _req" name="email" placeholder="E-mail" id="FormTel">
+                        <div class="form__item">
+                            <input type="email" class="form__input _req _email" name="email" placeholder="E-mail" id="FormEmail">
                         </div>
-                        <div class="form__group">
-                            <input type="tel" class="input _req _email" name="tel" placeholder="Телефон" id="FormEmail">
+                        <div class="form__item">
+                            <input type="tel" class="form__input _req" name="tel" placeholder="Телефон" id="FormTel">
                         </div>
-                        <div class="form__group">
-                            <textarea class="textarea _req" name="message" placeholder="Сообщение" id="FormMessage"></textarea>
+                        <div class="form__item">
+                            <textarea class="form__textarea _req" name="message" placeholder="Сообщение" id="FormMessage"></textarea>
                         </div>
-                        <div class="form__groups">
-                            <button class="btn tell-my__btn" type="submit">Отправить</button>
+                        <div class="form__items">
+                            <button type="submit" class="btn tell-my__btn">Отправить</button>
                             <div class="post-subtitle tell-my__subtitle">Нажимая “Отправить”, Вы даете согласие на обработку персональных данных</div>
                         </div>
                     </form>

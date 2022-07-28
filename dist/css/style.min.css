@@ -386,18 +386,17 @@ h6 {
   flex: 0 1 50%;
   padding: 0px 40px;
 }
-.form__group {
+.form__item {
   margin-bottom: 32px;
 }
 .form__group-paper {
   position: absolute;
 }
-.form__groups {
+.form__items {
   display: flex;
   min-height: 57px;
 }
-
-.input {
+.form__input {
   color: #EEF3FF;
   background-color: #252636;
   display: block;
@@ -408,8 +407,14 @@ h6 {
   border: 1px solid #fff;
   border-radius: 5px;
 }
-
-.textarea {
+.form__input:focus {
+  box-shadow: 0 0 15px #7a956b;
+}
+.form__input._error {
+  box-shadow: 0 0 15px red;
+  border: none;
+}
+.form__textarea {
   background: url(../img/tell-my/Paperclip.png) 535px 50px no-repeat;
   height: 92px;
   color: #EEF3FF;
@@ -422,6 +427,13 @@ h6 {
   border: 1px solid #fff;
   border-radius: 5px;
   resize: none;
+}
+.form__textarea:focus {
+  box-shadow: 0 0 15px #7a956b;
+}
+.form__textarea._error {
+  box-shadow: 0 0 15px red;
+  border: none;
 }
 
 html,

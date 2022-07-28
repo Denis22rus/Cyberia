@@ -29,40 +29,56 @@
 .form {
     flex: 0 1 50%;
     padding: 0px 40px;
-    &__group {
+    &__item {
         margin-bottom: 32px;
     }
     &__group-paper {
         position: absolute;
     }
-    &__groups {
+    &__items {
         display: flex;
         min-height: 57px;
     }
+    &__input {
+        color: $mainColor;
+        background-color: #252636;
+        display: block;
+        width: 100%;
+        padding: 17px 18px;
+        font-family: inherit;
+        font-size: 1rem;
+        border: 1px solid #fff;
+        border-radius: 5px;
+    }
+    &__input:focus {
+        box-shadow: 0 0 15px #7a956b;
+    }
+    &__input._error {
+        box-shadow: 0 0 15px red;
+        border: none;
+    }
+    &__textarea {
+        background: url(../img/tell-my/Paperclip.png) 535px 50px no-repeat;
+        height: 92px;
+        color: $mainColor;
+        background-color: #252636;
+        display: block;
+        width: 100%;
+        padding: 17px 18px;
+        font-family: inherit;
+        font-size: 1rem;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        resize: none;
+    }
+    &__textarea:focus {
+        box-shadow: 0 0 15px #7a956b;
+    }
+    &__textarea._error {
+        box-shadow: 0 0 15px red;
+        border: none;
+    }
 }
 
-.input {
-    color: $mainColor;
-    background-color: #252636;
-    display: block;
-    width: 100%;
-    padding: 17px 18px;
-    font-family: inherit;
-    font-size: 1rem;
-    border: 1px solid #fff;
-    border-radius: 5px;
-}
-.textarea {
-    background: url(../img/tell-my/Paperclip.png) 535px 50px no-repeat;
-    height: 92px;
-    color: $mainColor;
-    background-color: #252636;
-    display: block;
-    width: 100%;
-    padding: 17px 18px;
-    font-family: inherit;
-    font-size: 1rem;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    resize: none;
-}
+
+
