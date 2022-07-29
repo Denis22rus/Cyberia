@@ -1,0 +1,33 @@
+.footer {
+    padding: 48px 0px 151px 0px;
+    &__rows {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px -10px;
+    }
+    &__left {
+        flex: 0 1 207px;
+        padding: 0px 10px;
+    }
+    &__logo {
+        display: block;
+        margin-bottom: 28px;
+    }
+    &__right {
+        flex: 0 1 361px;
+        padding: 0px 10px;
+    }
+}
+
+.ft-center {
+    display: flex;
+    margin: 0px -30px;
+    &__row {
+        padding: 0px 30px;
+    }
+    &__sub {
+        display: block;
+        color: inherit;
+
+    }
+}

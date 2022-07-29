@@ -18,6 +18,7 @@ $mainHover: #2D76F9;
 @import "_interests.scss";
 @import "_news.scss";
 @import "_tell-my.scss";
+@import "_footer.scss";
 
 html,
 body {
@@ -99,4 +100,11 @@ body {
 .post-subtitle {
     font-weight: 400;
     line-height: 22 / 14 * 100%;
+}
+.ft-center__sub {
+    margin-bottom: 23px;
+    transition: color .2s linear;
+}
+.ft-center__sub:hover {
+    color: $mainHover;
 }
