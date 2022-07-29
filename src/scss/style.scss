@@ -19,6 +19,8 @@ $mainHover: #2D76F9;
 @import "_news.scss";
 @import "_tell-my.scss";
 @import "_footer.scss";
+@import "_articles.scss";
+@import "_article.scss";
 
 html,
 body {
@@ -84,15 +86,25 @@ body {
     font-family: Rubik;
     font-weight: 500;
     font-size: 2.7rem;
-    color: #EFF3FF;
+    line-height: 42 / 36 * 100%;
 
     margin-bottom: 85px;
+}
+.title-body-link {
+    display: block;
+    color: inherit;
+    transition: color .2s linear;
+}
+.title-body-link:hover {
+    color: $mainHover;
+}
+.articles__title {
+    margin-bottom: 114px;
 }
 .post-title {
     font-family: Rubik;
     font-weight: 500;
     font-size: 1.8rem;
-    color: #fff;
 }
 .news__item-title {
     font-size: 24px;
@@ -100,6 +112,7 @@ body {
 .post-subtitle {
     font-weight: 400;
     line-height: 22 / 14 * 100%;
+    color: inherit;
 }
 .ft-center__sub {
     margin-bottom: 23px;

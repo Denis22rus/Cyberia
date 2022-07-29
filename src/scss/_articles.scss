@@ -1,0 +1,30 @@
+.articles {
+    padding-bottom: 269px;
+    background-color: #252636;
+    &__nav {
+        padding: 216px 0px 104px;
+    }
+    &__home {
+        font-weight: Rubik;
+        font-size: 1.285rem;
+        font-weight: 300;
+        color: #9AA8BA;
+        transition: color .2s linear;
+    }
+    &__home:hover {
+        color: $mainHover;
+    }
+    &__span {
+        font-weight: Rubik;
+        font-size: 1.285rem;
+        font-weight: 300;
+        color: #9AA8BA;
+        padding: 0px 5px;
+    }
+    &__current {
+        color:#303958;
+        font-weight: Rubik;
+        font-size: 1.285rem;
+        font-weight: 300;
+    }
+}
