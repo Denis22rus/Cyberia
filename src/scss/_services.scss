@@ -1,5 +1,8 @@
 .services {
     margin: 110px 0px 110px 0px;
+    &-service {
+        margin-bottom: 179px;
+    }
     &__item {
         border-radius: 7px;
         box-shadow: 2px 2px 21px 6px #171B2CBF;
@@ -84,6 +87,9 @@
      }
     &__mb2 {
         margin: 36px 0px 53px;
+    }
+    &__mb3:last-child {
+        margin-bottom: 261px;
     }
     &__nav {
         display: flex;

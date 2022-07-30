@@ -3,7 +3,6 @@
     &__items {
         display: flex;
         margin: 0px -20px 42px;
-
     }
     &__items:last-child {
         display: flex;
@@ -61,5 +60,8 @@
         height: 100%;
         padding: 211px 64px 29px 29px;
         border-radius: 5px;
+    }
+    &-items-mb1:last-child {
+        margin-bottom: 424px;
     }
 }

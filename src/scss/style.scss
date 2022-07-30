@@ -8,6 +8,8 @@ $md3: 479.98px;
 $mainColor: #EEF3FF;
 $twoColor: #EFF3FF;
 $mainHover: #2D76F9;
+$liteColor: #2B2D3A;
+$darkColor: #252636;
 
 @import "fonts";
 @import "_nullstyle.scss";
@@ -120,4 +122,10 @@ body {
 }
 .ft-center__sub:hover {
     color: $mainHover;
+}
+.dark-background {
+    background-color: $darkColor;
+}
+.lite-background {
+    background-color: $liteColor;
 }

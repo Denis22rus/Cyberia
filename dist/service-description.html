@@ -13,10 +13,10 @@
     <title>Подробное описание услуги</title>
 </head>
 <body>
-    <div class="wrapper">
+    <div class="wrapper dark-background">
         <header class="header">
     <div class="header__container">
-        <a href="#" class="header__logo">
+        <a href="index.html" class="header__logo">
             <img src="../img/header/head-logo.png" alt="Logo">
         </a>
         <div class="header__menu menu">
@@ -29,7 +29,7 @@
                         <a href="services.html" class="menu__link">Услуги</a>
                     </li>
                     <li class="menu__item">
-                        <a href="" class="menu__link">Проекты</a>
+                        <a href="projects.html" class="menu__link">Проекты</a>
                     </li>
                     <li class="menu__item">
                         <a href="" class="menu__link">Блог</a>
@@ -47,7 +47,7 @@
     </div>
 </header>
         <main>
-            <section class="services">
+            <section class="services services-service">
                 <div class="services__container">
                     <nav class="articles__nav article__nav">
                         <a href="index.html" class="articles__home">Главная</a>
@@ -122,39 +122,81 @@
                     </div>
                 </div> <!-- container-->
             </section>
-            <section class="tell-my">
-                <div class="tell-my__container">
-                    <div class="tell-my__items">
-                        <div class="tell-my__row-left">
-                            <div class="tell-my__img">
-                                <img src="img/tell-my/mail.png" alt="Mail">
-                            </div>
-                            <div class="post-title tell-my__title">Расскажите <br> о вашем проекте</div>
-                            <div class="post-subtitle">Поделитесь с нами информацией, чем мы можем быть полезны: реализовать идею или выделить разработчиков для ИТ-команды. Чем больше вы нам расскажете — тем продуктивнее будет дальнейшее обсуждение.</div>
+            <section class="projects">
+                <div class="projects__container">
+                    <h2 class="services__title services__mb">Применение в проектах</h2>
+                    <div class="projects__items">
+                        <div class="projects__column">
+                            <article class="projects__item-two">
+                                <div class="projects__logo">
+                                    <img src="img/projects/logo.png" alt="Logo">
+                                </div>
+                                <div class="post-title projects__title">Foodzo</div>
+                                <div class="post-subtitle projects__subtitle">Онлайн гипермаркет. Для компании были разработаны сайт и мобильное приложение и т.д.</div>
+                            </article>
                         </div>
-                        <form action="#" id="form" class="form tell-my">
-                            <div class="form__item">
-                                <input type="text" class="form__input _req" name="name" placeholder="Имя" id="FormName">
-                            </div>
-                            <div class="form__item">
-                                <input type="email" class="form__input _req _email" name="email" placeholder="E-mail" id="FormEmail">
-                            </div>
-                            <div class="form__item">
-                                <input type="tel" class="form__input _req" name="tel" placeholder="Телефон" id="FormTel">
-                            </div>
-                            <div class="form__item">
-                                <textarea class="form__textarea _req" name="message" placeholder="Сообщение" id="FormMessage"></textarea>
-                            </div>
-                            <div class="form__items">
-                                <button type="submit" class="btn tell-my__btn">Отправить</button>
-                                <div class="post-subtitle tell-my__subtitle">Нажимая “Отправить”, Вы даете согласие на обработку персональных данных</div>
-                            </div>
-                        </form>
+                        <div class="projects__column">
+                            <article class="projects__item-five">
+                                <div class="projects__logo">
+                                    <img src="img/projects/logo.png" alt="Logo">
+                                </div>
+                                <div class="post-title projects__title">Foodzo</div>
+                                <div class="post-subtitle projects__subtitle">Онлайн гипермаркет. Для компании были разработаны сайт и мобильное приложение и т.д.</div>
+                            </article>
+                        </div>
+                        <div class="projects__column">
+                            <article class="projects__item-six">
+                                <div class="projects__logo">
+                                    <img src="img/projects/logo.png" alt="Logo">
+                                </div>
+                                <div class="post-title projects__title">Foodzo</div>
+                                <div class="post-subtitle projects__subtitle">Онлайн гипермаркет. Для компании были разработаны сайт и мобильное приложение и т.д.</div>
+                            </article>
+                        </div>
                     </div>
                 </div>
             </section>
+            <section class="services">
+                <div class="services__container">
+                    <div class="header-with-arrow">
+                        <h2 class="services__title services__mb">
+                            <a href="services.html" class="title-body-link">Другие услуги</a>
+                        </h2>
+                        <a href="services.html" class="arrow">
+                            <img src="img/projects/Arrow.png" alt="arrow">
+                        </a>
+                    </div>
+                    <div class="services__items-items services__mb3">
+                        <div class="services__column">
+                            <article class="services__item">
+                                <div class="services__header">
+                                    <div class="services__img services__img-img">
+                                        <img src="img/services/img-blog3.png" alt="Logo">
+                                    </div>
+                                    <div class="services__item-title services-width">Проектирование</div>
+                                </div>
+                                <div class="services__item-subtitle">Прототип сайта или приложения представляет собой набор экранов. На них видно расположение элементов, это даст вам ясное понимание того, как будет устроен будущий продукт.
+                                </div>
+                            </article>
+                        </div>
+                        <div class="services__column">
+                            <article class="services__item">
+                                <div class="services__header">
+                                    <div class="services__img services__img-img">
+                                        <img src="img/services/img-blog3.png" alt="Logo">
+                                    </div>
+                                    <div class="services__item-title services-width">Проектирование</div>
+                                </div>
+                                <div class="services__item-subtitle">Прототип сайта или приложения представляет собой набор экранов. На них видно расположение элементов, это даст вам ясное понимание того, как будет устроен будущий продукт.
+                                </div>
+                            </article>
+                        </div>
+                    </div> <!-- Items -->
+                </div> <!-- container-->
+            </section>
         </main>
-        <footer class="footer">
+        <div class="lite-background">
+            <footer class="footer">
     <div class="footer__container">
         <div class="footer__rows">
             <div class="footer__left">
@@ -170,9 +212,9 @@
                     <a href="#" class="post-subtitle ft-center__sub hv-none">Аносова 3Б, оф. 1</a>
                 </div>
                 <div class="ft-center__row">
-                    <a href="#" class="post-subtitle ft-center__sub">Главная</a>
-                    <a href="#" class="post-subtitle ft-center__sub">Услуги</a>
-                    <a href="#" class="post-subtitle ft-center__sub">Проекты</a>
+                    <a href="index.html" class="post-subtitle ft-center__sub">Главная</a>
+                    <a href="services.html" class="post-subtitle ft-center__sub">Услуги</a>
+                    <a href="projects.html" class="post-subtitle ft-center__sub">Проекты</a>
                 </div>
                 <div class="ft-center__row">
                     <a href="#" class="post-subtitle ft-center__sub">Блог</a>
@@ -186,6 +228,7 @@
         </div>
     </div>
 </footer>
+        </div>
     </div>
 </body>
 </html>

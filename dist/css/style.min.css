@@ -129,6 +129,9 @@ h6 {
 .services {
   margin: 110px 0px 110px 0px;
 }
+.services-service {
+  margin-bottom: 179px;
+}
 .services__item {
   border-radius: 7px;
   box-shadow: 2px 2px 21px 6px rgba(23, 27, 44, 0.7490196078);
@@ -210,6 +213,9 @@ h6 {
 }
 .services__mb2 {
   margin: 36px 0px 53px;
+}
+.services__mb3:last-child {
+  margin-bottom: 261px;
 }
 .services__nav {
   display: flex;
@@ -321,6 +327,9 @@ h6 {
   height: 100%;
   padding: 211px 64px 29px 29px;
   border-radius: 5px;
+}
+.projects-items-mb1:last-child {
+  margin-bottom: 424px;
 }
 
 .interests {
@@ -576,7 +585,7 @@ h6 {
   padding: 142px 0px 0px;
 }
 .article__nav {
-  padding: 42px 0px 106px;
+  padding: 108px 0px 106px;
 }
 .article__date-time {
   width: 265px;
@@ -790,4 +799,12 @@ body {
 
 .ft-center__sub:hover {
   color: #2D76F9;
+}
+
+.dark-background {
+  background-color: #252636;
+}
+
+.lite-background {
+  background-color: #2B2D3A;
 }
