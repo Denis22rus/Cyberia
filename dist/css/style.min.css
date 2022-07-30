@@ -141,6 +141,7 @@ h6 {
 .services__column {
   flex: 0 1 50%;
   padding: 0px 30px;
+  position: relative;
 }
 .services__header {
   display: flex;
@@ -182,6 +183,42 @@ h6 {
 .services__arrow {
   display: flex;
   justify-content: flex-end;
+}
+.services__items-items {
+  display: flex;
+  margin: 0px -30px;
+  margin-bottom: 50px;
+}
+.services__img-img {
+  position: absolute;
+  top: -12px;
+  right: 29px;
+}
+.services__items-items:last-child {
+  margin-bottom: 0px;
+}
+.services__title {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 78px;
+}
+.services__nav {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.services__nav-item {
+  display: block;
+  padding: 10px 29px;
+  box-shadow: 2px 2px 21px 6px rgba(23, 27, 44, 0.7490196078);
+  height: 100%;
+}
+.services-width {
+  max-width: 100%;
 }
 
 .lists-services {

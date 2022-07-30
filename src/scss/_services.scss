@@ -12,6 +12,7 @@
     &__column {
         flex: 0 1 50%;
         padding: 0px 30px;
+        position: relative;
     }
     &__header {
         display: flex;
@@ -30,7 +31,6 @@
         font-size: 1.85rem;
         line-height: 30 / 26 * 100%;
         max-width: 232px;
-
     }
     &__strip {
         margin-bottom: 33px;
@@ -56,6 +56,43 @@
     &__arrow {
         display: flex;
         justify-content: flex-end;
+    }
+    // services html //
+    &__items-items {
+        display: flex;
+        margin: 0px -30px;
+        margin-bottom: 50px;
+    }
+    &__img-img {
+        position: absolute;
+        top: -12px;
+        right: 29px;
+    }
+    &__items-items:last-child {
+        margin-bottom: 0px;
+    }
+    &__title {
+        font-family: Rubik;
+        font-weight: 500;
+        font-size: 2rem;
+        color: #fff;
+        margin-bottom: 78px;
+    }
+    &__nav {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        margin-bottom: 80px;
+    }
+    &__nav-item {
+        display: block;
+        padding: 10px 29px;
+        box-shadow: 2px 2px 21px 6px #171B2CBF;
+        height: 100%;
+    }
+    &-width {
+        max-width: 100%;
     }
 }
 
