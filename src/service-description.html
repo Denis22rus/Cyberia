@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    @@include('html/head.html',{
+        "title":"Подробное описание услуги"
+    })
+<body>
+    <div class="wrapper">
+        @@include('html/header.html', {})
+        <main>
+            <section class="services">
+                <div class="services__container">
+                    <nav class="articles__nav article__nav">
+                        <a href="index.html" class="articles__home">Главная</a>
+                        <span class="articles__span">/</span>
+                        <a href="services.html" class="articles__home">Услуги</a>
+                        <span class="articles__span">/</span>
+                        <a href="#" class="articles__current">Как мы проектируем?</a>
+                    </nav>
+                    <h2 class="services__title services__mb">Как мы проектируем?</h2>
+                    <div class="services__items-items">
+                        <div class="services__column">
+                            <article class="services__item">
+                                <div class="services__header">
+                                    <div class="services__img">
+                                        <p class="services_p">1</p>
+                                    </div>
+                                    <div class="services__item-title services-width">Рисуем скетчи</div>
+                                </div>
+                                <div class="services__item-subtitle">Первый вариант прототипа появляется на бумаге — за пару часов мы подготавливаем схематичные скетчи с несколькими вариантами интерфейсов. Этот этап позволяет наглядно увидеть ожидания заказчика, прийти к общему пониманию и сократить затраты на последующие согласования.
+                                </div>
+                            </article>
+                        </div>
+                        <div class="services__column">
+                            <article class="services__item">
+                                <div class="services__header">
+                                    <div class="services__img">
+                                        <p class="services_p">2</p>
+                                    </div>
+                                    <div class="services__item-title services-width">Согласовываем</div>
+                                </div>
+                                <div class="services__item-subtitle">Во время разработки прототипов мы находимся в постоянном взаимодействии с заказчиком и регулярно согласовываем выполненные работы. Частота итераций и формат обсуждаются индивидуально с каждым клиентом.
+                                </div>
+                            </article>
+                        </div>
+                    </div> <!-- Items -->
+                    <div class="services__items-items">
+                        <div class="services__column">
+                            <article class="services__item">
+                                <div class="services__header">
+                                    <div class="services__img">
+                                        <p class="services_p">3</p>
+                                    </div>
+                                    <div class="services__item-title services-width">Прототипируем</div>
+                                </div>
+                                <div class="services__item-subtitle">Затем мы создаём прототипы различной степени детализации в Figma — от вайрфреймов, отображающих схематичное расположение блоков будущего продукта до максимально детализированных прототипов с отрисовкой состояний блоков и ошибок.
+                                </div>
+                            </article>
+                        </div>
+                        <div class="services__column">
+                            <article class="services__item">
+                                <div class="services__header">
+                                    <div class="services__img">
+                                        <p class="services_p">4</p>
+                                    </div>
+                                    <div class="services__item-title services-width">Адаптируем прототипы</div>
+                                </div>
+                                <div class="services__item-subtitle">Если продуктом пользуются с разных устройств, мы разрабатываем адаптивные прототипы - макеты продукта для планшетов и мобильных устройств. Мы знаем требования операционных систем Android и IOS (Material Design и Human Interface) для проектирования нативных мобильных приложений.
+                                </div>
+                            </article>
+                        </div>
+                    </div> <!-- Items -->
+                    <div class="services__items-items">
+                        <div class="services__column services__width">
+                            <article class="services__item services__padding">
+                                <img src="img/services/Logo.png" alt="Logo">
+                                <h2 class="services__title services-width services__mb2">Преимущества нашего подхода в <br> проектировании</h2>
+                                <div class="services__item-subtitle services__fz">Затем мы создаём прототипы различной степени детализации в Figma — от вайрфреймов, отображающих схематичное расположение блоков будущего продукта до максимально детализированных прототипов с отрисовкой состояний блоков и ошибок. Затем мы создаём прототипы различной степени детализации в Figma — от вайрфреймов, отображающих схематичное расположение блоков будущего продукта до максимально детализированных прототипов с отрисовкой состояний блоков и ошибок.
+                                </div>
+                                <a href="#" class="btn">Обсудить проект</a>
+                            </article>
+                        </div>
+                    </div>
+                </div> <!-- container-->
+            </section>
+            <section class="tell-my">
+                <div class="tell-my__container">
+                    <div class="tell-my__items">
+                        <div class="tell-my__row-left">
+                            <div class="tell-my__img">
+                                <img src="img/tell-my/mail.png" alt="Mail">
+                            </div>
+                            <div class="post-title tell-my__title">Расскажите <br> о вашем проекте</div>
+                            <div class="post-subtitle">Поделитесь с нами информацией, чем мы можем быть полезны: реализовать идею или выделить разработчиков для ИТ-команды. Чем больше вы нам расскажете — тем продуктивнее будет дальнейшее обсуждение.</div>
+                        </div>
+                        <form action="#" id="form" class="form tell-my">
+                            <div class="form__item">
+                                <input type="text" class="form__input _req" name="name" placeholder="Имя" id="FormName">
+                            </div>
+                            <div class="form__item">
+                                <input type="email" class="form__input _req _email" name="email" placeholder="E-mail" id="FormEmail">
+                            </div>
+                            <div class="form__item">
+                                <input type="tel" class="form__input _req" name="tel" placeholder="Телефон" id="FormTel">
+                            </div>
+                            <div class="form__item">
+                                <textarea class="form__textarea _req" name="message" placeholder="Сообщение" id="FormMessage"></textarea>
+                            </div>
+                            <div class="form__items">
+                                <button type="submit" class="btn tell-my__btn">Отправить</button>
+                                <div class="post-subtitle tell-my__subtitle">Нажимая “Отправить”, Вы даете согласие на обработку персональных данных</div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        @@include('html/footer.html', {})
+    </div>
+</body>
+</html>

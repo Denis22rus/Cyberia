@@ -203,6 +203,13 @@ h6 {
   font-size: 2rem;
   color: #fff;
   margin-bottom: 78px;
+  line-height: 118.4210526316%;
+}
+.services__mb {
+  margin-bottom: 138px;
+}
+.services__mb2 {
+  margin: 36px 0px 53px;
 }
 .services__nav {
   display: flex;
@@ -219,6 +226,22 @@ h6 {
 }
 .services-width {
   max-width: 100%;
+}
+.services_p {
+  color: #2D76F9;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.services__width {
+  flex: 0 1 auto;
+  margin-top: 169px;
+}
+.services__fz {
+  font-size: 1.1rem;
+  margin-bottom: 71px;
+}
+.services__padding {
+  padding: 108px 126px 90px 86px;
 }
 
 .lists-services {

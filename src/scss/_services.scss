@@ -77,6 +77,13 @@
         font-size: 2rem;
         color: #fff;
         margin-bottom: 78px;
+        line-height: 45 / 38 * 100%;
+    }
+    &__mb {
+        margin-bottom: 138px;
+     }
+    &__mb2 {
+        margin: 36px 0px 53px;
     }
     &__nav {
         display: flex;
@@ -93,6 +100,22 @@
     }
     &-width {
         max-width: 100%;
+    }
+    &_p {
+       color: $mainHover;
+       font-size: 2.5rem;
+       font-weight: 600;
+    }
+    &__width {
+        flex: 0 1 auto;
+        margin-top: 169px;
+    }
+    &__fz {
+        font-size: 1.1rem;
+        margin-bottom: 71px;
+    }
+    &__padding {
+        padding: 108px 126px 90px 86px;
     }
 }
 
