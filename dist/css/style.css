@@ -744,6 +744,60 @@ h6 {
   height: 848px;
 }
 
+.mission {
+  background-color: #252636;
+  padding-bottom: 240px;
+}
+.mission__nav {
+  padding: 199px 0px 52px;
+}
+.mission__title {
+  font-family: Rubik;
+  font-weight: 600;
+  font-size: 5.1rem;
+  line-height: 118.0555555556%;
+  margin-bottom: 70px;
+}
+.mission__subtitle {
+  font-weight: 300;
+  font-size: 1.7rem;
+  line-height: 133.3333333333%;
+  max-width: 717px;
+}
+
+.m-interests {
+  background-color: #2B2D3A;
+  padding-bottom: 234px;
+}
+.m-interests__items {
+  position: relative;
+  top: -100px;
+}
+.m-interests__post-title {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 117.8571428571%;
+  color: #2D76F9;
+  margin-bottom: 24px;
+}
+.m-interests__item {
+  padding: 48px 67px 111px;
+}
+.m-interests__img-items {
+  display: flex;
+  margin: 0px -20px;
+}
+.m-interests__img-column {
+  flex: 0 1 16.666%;
+  padding: 0px 20px;
+}
+.m-interests__img-item {
+  height: 173px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 21px 6px rgba(23, 27, 44, 0.7490196078);
+}
+
 html,
 body {
   height: 100%;
