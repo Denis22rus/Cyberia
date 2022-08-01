@@ -1,6 +1,9 @@
 .articles {
     padding-bottom: 269px;
     background-color: #252636;
+    &__title {
+        margin-bottom: 131px;
+    }
     &__nav {
         padding: 216px 0px 104px;
     }

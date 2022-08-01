@@ -103,6 +103,15 @@ h6 {
   padding-bottom: 260px;
   background-color: #252636;
 }
+.intro__sub {
+  max-width: 720px;
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 136.1666666667%;
+}
+.intro__pd {
+  padding-top: 91px;
+}
 .intro__logo {
   display: flex;
   align-items: center;
@@ -125,9 +134,17 @@ h6 {
   max-width: 609px;
   margin-bottom: 90px;
 }
+.intro__title-big {
+  max-width: 750px;
+  font-size: 5.1rem;
+  margin: 50px 0px 68px;
+}
 
 .services {
   margin: 110px 0px 110px 0px;
+}
+.services__title-mb {
+  margin-bottom: 78px;
 }
 .services-service {
   margin-bottom: 179px;
@@ -337,6 +354,10 @@ h6 {
   padding-bottom: 160px;
   background-color: #252636;
 }
+.interests__pd {
+  background-color: #2B2D3A;
+  padding: 0px 0px 234px;
+}
 .interests__items {
   display: flex;
   margin: 0px -20px;
@@ -429,6 +450,10 @@ h6 {
 .tell-my {
   background-color: #252636;
   padding: 95px 0px;
+}
+.tell-my__sub {
+  margin-top: 30px;
+  max-width: 455px;
 }
 .tell-my__items {
   display: flex;
@@ -545,6 +570,9 @@ h6 {
   padding-bottom: 269px;
   background-color: #252636;
 }
+.articles__title {
+  margin-bottom: 131px;
+}
 .articles__nav {
   padding: 216px 0px 104px;
 }
@@ -575,6 +603,12 @@ h6 {
 .article {
   background-color: #252636;
   padding-bottom: 214px;
+}
+.article__title-mb {
+  margin-bottom: 72px;
+}
+.article__title-mb2 {
+  margin-bottom: 111px;
 }
 .article__img {
   padding: 142px 0px 0px;
@@ -687,6 +721,12 @@ h6 {
   background-color: #252636;
   padding-bottom: 192px;
 }
+.project__title-mb {
+  margin-bottom: 42px;
+}
+.project__title-mb2 {
+  margin: 192px 0px 123px;
+}
 .project__subtitle {
   max-width: 244px;
 }
@@ -744,30 +784,8 @@ h6 {
   height: 848px;
 }
 
-.mission {
-  background-color: #252636;
-  padding-bottom: 240px;
-}
-.mission__nav {
-  padding: 199px 0px 52px;
-}
-.mission__title {
-  font-family: Rubik;
-  font-weight: 600;
-  font-size: 5.1rem;
-  line-height: 118.0555555556%;
-  margin-bottom: 70px;
-}
-.mission__subtitle {
-  font-weight: 300;
-  font-size: 1.7rem;
-  line-height: 133.3333333333%;
-  max-width: 717px;
-}
-
-.m-interests {
-  background-color: #2B2D3A;
-  padding-bottom: 234px;
+.m-interests__title {
+  margin-bottom: 85px;
 }
 .m-interests__items {
   position: relative;
@@ -876,6 +894,9 @@ body {
   font-weight: 500;
   font-size: 2.7rem;
   line-height: 116.6666666667%;
+}
+
+.t-body-first {
   margin-bottom: 83px;
 }
 
@@ -887,10 +908,6 @@ body {
 
 .title-body-link:hover {
   color: #2D76F9;
-}
-
-.articles__title {
-  margin-bottom: 114px;
 }
 
 .post-title {

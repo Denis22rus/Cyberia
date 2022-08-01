@@ -2,6 +2,10 @@
     padding-top: 107px;
     padding-bottom: 160px;
     background-color: #252636;
+    &__pd {
+        background-color: $liteColor;
+        padding: 0px 0px 234px;
+    }
     &__items {
         display: flex;
         margin: 0px -20px;

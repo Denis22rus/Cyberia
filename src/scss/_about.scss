@@ -1,26 +1,27 @@
-.mission {
-    background-color: $darkColor;
-    padding-bottom: 240px;
-    &__nav {
-        padding: 199px 0px 52px;
-    }
-    &__title {
-        font-family: Rubik;
-        font-weight: 600;
-        font-size: 5.1rem;
-        line-height: 85 / 72 * 100%;
-        margin-bottom: 70px;
-    }
-    &__subtitle {
-        font-weight: 300;
-        font-size: 1.7rem;
-        line-height: 32 / 24 * 100%;
-        max-width: 717px;
-    }
-}
+// .mission {
+//     background-color: $darkColor;
+//     padding-bottom: 240px;
+//     &__nav {
+//         padding: 199px 0px 52px;
+//     }
+//     &__title {
+//         font-family: Rubik;
+//         font-weight: 600;
+//         font-size: 5.1rem;
+//         line-height: 85 / 72 * 100%;
+//         margin-bottom: 70px;
+//     }
+//     &__subtitle {
+//         font-weight: 300;
+//         font-size: 1.7rem;
+//         line-height: 32 / 24 * 100%;
+//         max-width: 717px;
+//     }
+// }
 .m-interests {
-    background-color: $liteColor;
-    padding-bottom: 234px;
+    &__title {
+        margin-bottom: 85px;
+    }
     &__items {
         position: relative;
         top: -100px;

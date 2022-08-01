@@ -1,6 +1,12 @@
 .project {
     background-color: $darkColor;
     padding-bottom: 192px;
+    &__title-mb {
+        margin-bottom: 42px;
+    }
+    &__title-mb2 {
+        margin: 192px 0px 123px;
+    }
     &__subtitle {
         max-width: 244px;
     }

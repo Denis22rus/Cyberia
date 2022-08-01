@@ -98,6 +98,8 @@ body {
     font-weight: 500;
     font-size: 2.7rem;
     line-height: 42 / 36 * 100%;
+}
+.t-body-first {
     margin-bottom: 83px;
 }
 .title-body-link {
@@ -107,9 +109,6 @@ body {
 }
 .title-body-link:hover {
     color: $mainHover;
-}
-.articles__title {
-    margin-bottom: 114px;
 }
 .post-title {
     font-family: Rubik;

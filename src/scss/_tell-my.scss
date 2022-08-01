@@ -1,6 +1,10 @@
 .tell-my {
     background-color: #252636;
     padding: 95px 0px;
+    &__sub {
+        margin-top: 30px;
+        max-width: 455px;
+    }
     &__items {
         display: flex;
         margin: 0px -40px;

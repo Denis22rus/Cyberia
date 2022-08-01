@@ -2,6 +2,15 @@
     padding-top: 269px;
     padding-bottom: 260px;
     background-color: #252636;
+    &__sub {
+        max-width: 720px;
+        font-size: 1.7rem;
+        font-weight: 300;
+        line-height: 32.68 / 24 * 100%;
+    }
+    &__pd {
+        padding-top: 91px;
+    }
     &__logo {
         display: flex;
         align-items: center;
@@ -25,5 +34,10 @@
         max-width: 609px;
 
         margin-bottom: 90px;
+    }
+    &__title-big {
+        max-width: 750px;
+        font-size: 5.1rem;
+        margin: 50px 0px 68px;
     }
 }

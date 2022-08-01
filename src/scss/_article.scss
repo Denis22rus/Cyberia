@@ -1,6 +1,12 @@
 .article {
     background-color: #252636;
     padding-bottom: 214px;
+    &__title-mb {
+        margin-bottom: 72px;
+    }
+    &__title-mb2 {
+        margin-bottom: 111px;
+    }
     &__img {
         padding: 142px 0px 0px;
     }
