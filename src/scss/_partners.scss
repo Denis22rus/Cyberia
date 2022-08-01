@@ -1,0 +1,22 @@
+.partners {
+    padding: 91px 0px 141px;
+    background-color: #343C56;
+    &__title-mb {
+        margin-bottom: 101px;
+    }
+    &__items {
+        display: flex;
+        margin: 0px -100px;
+        align-items: center;
+    }
+    &__column {
+        flex: 0 1 25%;
+        padding: 0px 100px;
+    }
+    &__img-top {
+        margin-bottom: 48px;
+    }
+    &__img-mb {
+        margin-bottom: 80px;
+    }
+}

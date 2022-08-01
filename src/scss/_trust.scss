@@ -1,0 +1,26 @@
+.trust {
+    padding: 101px 0px 174px;
+    background-color: #464F6F;
+    &__title-mb {
+        margin-bottom: 115px;
+    }
+    &__items {
+        display: flex;
+        margin: 0px -20px;
+    }
+    &__column {
+        flex: 0 1 25%;
+        padding: 0px 20px;
+    }
+    &__img {
+        margin-bottom: 39px;
+    }
+    &__twitch {
+        position: relative;
+        top: -45px;
+    }
+    &__subtitle {
+        font-size: 1.142rem;
+        font-weight: 400;
+    }
+}
