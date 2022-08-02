@@ -1,0 +1,45 @@
+.blog {
+   padding: 291px 0px 0px;
+   background: url(../img/blog/backgorund.jpg) no-repeat  center / cover;
+   &__intro {
+    display: flex;
+   }
+   &__intro_left {
+    position: relative;
+   }
+   &__intro-girl {
+    position: absolute;
+    bottom: 0;
+    right: 70px;
+    z-index: 10;
+   }
+   &__title {
+    font-family: Rubik;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 66 / 56 * 100%;
+    margin-bottom: 24px;
+   }
+   &__subtitle {
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 33 / 24 * 100%;
+    max-width: 598px;
+    margin-bottom: 61px;
+   }
+   &__subtitle::after{
+    content: "";
+    display: block;
+
+    max-width: 225px;
+    height: 3px;
+    background-color: #fff;
+    margin-top: 33px;
+   }
+   &__job-title {
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 33 / 24 * 100%;
+    max-width: 598px;
+   }
+}
