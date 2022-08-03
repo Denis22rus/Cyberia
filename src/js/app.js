@@ -56,3 +56,15 @@ document.addEventListener('DOMContentLoaded', function() {
         return !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,8})+$/.test(input.value);
     }
 });
+
+
+let prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+let currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("pos-header").style.top = "0";
+  } else {
+    document.getElementById("pos-header").style.top = "-117px";
+  }
+  prevScrollpos = currentScrollPos;
+}

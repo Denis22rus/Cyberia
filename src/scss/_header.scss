@@ -1,14 +1,16 @@
 .header {
-    position: absolute;
+    position: fixed;
     width: 100%;
     top: 0;
-    left: 0;
+    display: block;
     z-index: 1000;
+    transition: top 0.3s;
+    // background-color: #20212C;
     &__container {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        min-height: 142px;
+        min-height: 117px;
     }
     &__logo {
         img {
@@ -28,7 +30,6 @@
         }
     }
 }
-
 .menu {
     display: flex;
     align-items: center;
@@ -36,21 +37,36 @@
         display: flex;
     }
     &__item {
-        margin-right: 83px;
+        margin-right: 63px;
         z-index: 10;
     }
     &__item:last-child {
         margin-right: 63px;
     }
     &__link {
+        display: inline-block;
+        color: $mainColor;
         font-family: Rubik;
         font-weight: 300;
-        font-size: 1.28rem;
-        color: $mainColor;
-        transition: color .2s linear;
-        z-index: 10;
+        font-size: 1.2rem;
+        line-height: 21 / 18 * 100%;
+        position: relative;
+        padding: 0px 10px;
     }
-    &__link:hover {
-        color: $mainHover ;
+    &__link:after {
+        display: block;
+        content: "";
+        background-color: $mainHover;
+        height: 1.5px;
+        width: 0%;
+        left: 50%;
+        position: absolute;
+        transition: width .3s ease-in-out;
+        transform: translateX(-50%);
+        margin-top: 3px;
+    }
+    &__link:hover:after,
+    &__link:focus:after {
+        width: 100%;
     }
 }

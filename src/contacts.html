@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    @@include('html/head.html',{
+        "title":"Контакты"
+    })
+<body>
+    <div class="wrapper">
+        @@include('html/header.html', {})
+        <main>
+            <section class="contacts">
+                <div class="contacts__container">
+                    <nav class="articles__nav">
+                        <a href="index.html" class="articles__home">Главная</a>
+                        <span class="articles__span">/</span>
+                        <a href="#" class="articles__current">Контакты</a>
+                    </nav>
+                    <div class="contacts__items">
+                        <div class="contacts__column-left">
+                            <div class="contacts__item-left">
+                                <div class="contacts__title list">Контакты</div>
+                                <a href="#" class="contacts__list list-phone title-body-link">+7 499 679 45 79</a>
+                                <a href="#" class="contacts__list list-envelope title-body-link">hello@cyberia.ru</a>
+                                <a href="#" class="contacts__list list-mappin title-body-link">Аносова 3Б, оф. 1</a>
+                            </div>
+                        </div>
+                        <div class="contacts__column-right">
+                            <div class="contacts__item-right">
+                                <iframe src="https://yandex.ru/map-widget/v1/-/CBR14ScUOD"   frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        @@include('html/footer.html', {})
+    </div>
+</body>
+</html>
