@@ -13,9 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
         let error = formValidate(form);
 
         if (error === 0) {
-
+            alert('Ваша заявка успешно отправлена');
         }else {
-            alert('Заполните обязательные поля');
+            alert('Не удалось отрпавить заявку, повторите отправку позднее');
         }
     }
 

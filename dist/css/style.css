@@ -116,7 +116,7 @@ h6 {
 .intro {
   padding-top: 269px;
   padding-bottom: 260px;
-  background-color: #252636;
+  background-color: #1E1F2B;
 }
 .intro__sub {
   max-width: 720px;
@@ -144,9 +144,9 @@ h6 {
 .intro__title {
   font-family: Rubik;
   font-weight: 600;
-  font-size: 55px;
+  font-size: 3.92rem;
   line-height: 118.1818181818%;
-  max-width: 609px;
+  max-width: 691px;
   margin-bottom: 90px;
 }
 .intro__title-big {
@@ -367,7 +367,7 @@ h6 {
 .interests {
   padding-top: 107px;
   padding-bottom: 160px;
-  background-color: #252636;
+  background-color: #252631;
 }
 .interests__pd {
   background-color: #2B2D3A;
@@ -463,8 +463,8 @@ h6 {
 }
 
 .tell-my {
-  background-color: #252636;
-  padding: 95px 0px;
+  background-color: #252631;
+  padding: 12.5px 0px 177px;
 }
 .tell-my__sub {
   margin-top: 30px;
@@ -510,7 +510,7 @@ h6 {
 }
 .form__input {
   color: #EEF3FF;
-  background-color: #252636;
+  background-color: #252631;
   display: block;
   width: 100%;
   padding: 17px 18px;
@@ -520,17 +520,17 @@ h6 {
   border-radius: 5px;
 }
 .form__input:focus {
-  box-shadow: 0 0 15px #7a956b;
+  box-shadow: 0 0 15px greenyellow;
 }
 .form__input._error {
+  border: 1px solid red;
   box-shadow: 0 0 15px red;
-  border: none;
 }
 .form__textarea {
   background: url(../img/tell-my/Paperclip.png) 535px 50px no-repeat;
   height: 92px;
   color: #EEF3FF;
-  background-color: #252636;
+  background-color: inherit;
   display: block;
   width: 100%;
   padding: 17px 18px;
@@ -541,11 +541,30 @@ h6 {
   resize: none;
 }
 .form__textarea:focus {
-  box-shadow: 0 0 15px #7a956b;
+  box-shadow: 0 0 15px greenyellow;
 }
 .form__textarea._error {
+  border: 1px solid red;
   box-shadow: 0 0 15px red;
-  border: none;
+}
+
+textarea {
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+textarea::-webkit-scrollbar-track {
+  background-color: #EEF3FF;
+}
+
+textarea::-webkit-scrollbar {
+  width: 5px;
+  background-color: #F5F5F5;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background-color: #9AA8BA;
 }
 
 .footer {
@@ -583,7 +602,7 @@ h6 {
 
 .articles {
   padding-bottom: 269px;
-  background-color: #252636;
+  background-color: #252631;
 }
 .articles__title {
   margin-bottom: 131px;
@@ -649,6 +668,7 @@ h6 {
   font-family: Rubik;
   font-weight: 500;
   margin-bottom: 38px;
+  line-height: 117.8571428571%;
 }
 .article__lists {
   margin-bottom: 56px;
@@ -1234,6 +1254,7 @@ body {
 .header-with-arrow {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .title-body {

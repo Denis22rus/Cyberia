@@ -1,7 +1,7 @@
 .intro {
     padding-top: 269px;
     padding-bottom: 260px;
-    background-color: #252636;
+    background-color: $backGround-color-1;
     &__sub {
         max-width: 720px;
         font-size: 1.7rem;
@@ -29,9 +29,9 @@
     &__title {
         font-family: Rubik;
         font-weight: 600;
-        font-size: 55px;
+        font-size: 3.92rem;
         line-height: 65 / 55 * 100%;
-        max-width: 609px;
+        max-width: 691px;
 
         margin-bottom: 90px;
     }
@@ -41,3 +41,4 @@
         margin: 50px 0px 68px;
     }
 }
+

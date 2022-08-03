@@ -9,6 +9,13 @@ $md3: 479.98px;
 $mainColor: #EEF3FF;
 $twoColor: #EFF3FF;
 $mainHover: #2D76F9;
+
+$backGround-color-1: #1E1F2B;
+$Main-backGround: #2B2D3A;
+$backGround-color-3: #252631;
+$backGround-color-4: #2B2D3A;
+
+
 $liteColor: #2B2D3A;
 $darkColor: #252636;
 
@@ -45,7 +52,7 @@ body {
     font-family: Open Sans, Rubik, Fira Sans Condensed, SF Pro Text, Inter, Lato;
     font-size: 14px;
     color: $mainColor;
-    background-color: #2B2D3A;
+    background-color: $Main-backGround;
     line-height: 22 / 14 * 100%;
 }
 
@@ -100,6 +107,7 @@ body {
 .header-with-arrow {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .title-body {
     font-family: Rubik;
