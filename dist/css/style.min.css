@@ -1310,3 +1310,7 @@ body {
 .lite-background {
   background-color: #2B2D3A;
 }
+
+._active {
+  color: #2D76F9;
+}
