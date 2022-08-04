@@ -158,6 +158,9 @@ h6 {
 .services {
   margin: 110px 0px 110px 0px;
 }
+.services__project {
+  margin: 0px 0px 424px;
+}
 .services__title-mb {
   margin-bottom: 78px;
 }
@@ -177,6 +180,7 @@ h6 {
   flex: 0 1 50%;
   padding: 0px 30px;
   position: relative;
+  margin-bottom: 50px;
 }
 .services__header {
   display: flex;
@@ -222,7 +226,6 @@ h6 {
 .services__items-items {
   display: flex;
   margin: 0px -30px;
-  margin-bottom: 50px;
 }
 .services__img-img {
   position: absolute;
@@ -302,7 +305,7 @@ h6 {
 }
 .projects__items {
   display: flex;
-  margin: 0px -20px 42px;
+  margin: 0px -20px 0px;
 }
 .projects__items:last-child {
   display: flex;
@@ -311,6 +314,7 @@ h6 {
 .projects__column {
   flex: 0 1 33.333%;
   padding: 0px 20px;
+  margin-bottom: 42px;
 }
 .projects__logo {
   margin-bottom: 8px;
@@ -1313,4 +1317,37 @@ body {
 
 ._active {
   color: #2D76F9;
+}
+
+.filterDiv {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.btn-filter {
+  font-size: 1.3rem;
+  font-family: Rubik;
+  font-weight: 300;
+  background-color: #2B2D3A;
+  color: #EFF3FF;
+  border-radius: 7px;
+  transition: all 0.2s linear;
+  padding: 10px 29px;
+  cursor: pointer;
+  padding: 10px 29px;
+  box-shadow: 2px 2px 21px 6px rgba(23, 27, 44, 0.7490196078);
+  height: 100%;
+}
+
+.btn-filter:hover {
+  background-color: #EFF3FF;
+  color: #303958;
+}
+
+.btn-filter.active-filter {
+  background-color: #2D76F9;
+  color: #ffffff;
 }

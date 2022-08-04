@@ -1,5 +1,8 @@
 .services {
     margin: 110px 0px 110px 0px;
+    &__project {
+        margin: 0px 0px 424px;
+    }
     &__title-mb {
         margin-bottom: 78px;
     }
@@ -19,6 +22,7 @@
         flex: 0 1 50%;
         padding: 0px 30px;
         position: relative;
+        margin-bottom: 50px;
     }
     &__header {
         display: flex;
@@ -67,7 +71,7 @@
     &__items-items {
         display: flex;
         margin: 0px -30px;
-        margin-bottom: 50px;
+
     }
     &__img-img {
         position: absolute;

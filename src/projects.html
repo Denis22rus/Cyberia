@@ -9,7 +9,7 @@
             "link":"3"
         })
         <main>
-            <section class="services">
+            <section class="services services__project">
                 <div class="projects__container">
                     <nav class="articles__nav article__nav">
                         <a href="index.html" class="articles__home">Главная</a>
@@ -17,22 +17,15 @@
                         <a href="#" class="articles__current">Проекты</a>
                     </nav>
                     <h2 class="title-body services__title-mb">Проекты</h2>
-                    <nav class="services__nav">
-                        <div class="services__nav-column">
-                            <a href="#" class="services__nav-item title-body-link">Продвижение</a>
-                        </div>
-                        <div class="services__nav-column">
-                            <a href="#" class="services__nav-item title-body-link">Разработка</a>
-                        </div>
-                        <div class="services__nav-column">
-                            <a href="#" class="services__nav-item title-body-link">Мобильное приложение</a>
-                        </div>
-                        <div class="services__nav-column">
-                            <a href="#" class="services__nav-item title-body-link">Юзабилити - аудит</a>
-                        </div>
-                    </nav>
+                    <div id="myBtn-filter" class="services__nav">
+                        <button class="btn-filter active-filter" onclick="filterSelection('all')">Продвижение</button>
+                        <button class="btn-filter" onclick="filterSelection('development')"> Разработка</button>
+                        <button class="btn-filter" onclick="filterSelection('mobile')"> Мобильное приложение</button>
+                        <button class="btn-filter" onclick="filterSelection('usability')"> Юзабилити - аудит</button>
+                      </div>
+
                     <div class="projects__items">
-                        <div class="projects__column">
+                        <div class="projects__column filterDiv development">
                             <article class="projects__item-one">
                                 <div class="projects__logo">
                                     <img src="img/projects/logo.png" alt="Logo">
@@ -43,7 +36,7 @@
                                 <div class="post-subtitle projects__subtitle">Онлайн гипермаркет. Для компании были разработаны сайт и мобильное приложение и т.д.</div>
                             </article>
                         </div>
-                        <div class="projects__column">
+                        <div class="projects__column filterDiv development">
                             <article class="projects__item-two">
                                 <div class="projects__logo">
                                     <img src="img/projects/logo.png" alt="Logo">
@@ -52,7 +45,7 @@
                                 <div class="post-subtitle projects__subtitle">Онлайн гипермаркет. Для компании были разработаны сайт и мобильное приложение и т.д.</div>
                             </article>
                         </div>
-                        <div class="projects__column">
+                        <div class="projects__column filterDiv development">
                             <article class="projects__item-three">
                                 <div class="projects__logo">
                                     <img src="img/projects/logo.png" alt="Logo">
@@ -63,7 +56,7 @@
                         </div>
                     </div>
                     <div class="projects__items">
-                        <div class="projects__column">
+                        <div class="projects__column filterDiv mobile">
                             <article class="projects__item-four">
                                 <div class="projects__logo">
                                     <img src="img/projects/logo.png" alt="Logo">
@@ -72,7 +65,7 @@
                                 <div class="post-subtitle projects__subtitle">Онлайн гипермаркет. Для компании были разработаны сайт и мобильное приложение и т.д.</div>
                             </article>
                         </div>
-                        <div class="projects__column">
+                        <div class="projects__column filterDiv mobile">
                             <article class="projects__item-five">
                                 <div class="projects__logo">
                                     <img src="img/projects/logo.png" alt="Logo">
@@ -81,7 +74,7 @@
                                 <div class="post-subtitle projects__subtitle">Онлайн гипермаркет. Для компании были разработаны сайт и мобильное приложение и т.д.</div>
                             </article>
                         </div>
-                        <div class="projects__column">
+                        <div class="projects__column filterDiv mobile">
                             <article class="projects__item-six">
                                 <div class="projects__logo">
                                     <img src="img/projects/logo.png" alt="Logo">
@@ -91,8 +84,8 @@
                             </article>
                         </div>
                     </div>
-                    <div class="projects__items projects-items-mb1">
-                        <div class="projects__column">
+                    <div class="projects__items">
+                        <div class="projects__column filterDiv usability">
                             <article class="projects__item-four">
                                 <div class="projects__logo">
                                     <img src="img/projects/logo.png" alt="Logo">
@@ -101,7 +94,7 @@
                                 <div class="post-subtitle projects__subtitle">Онлайн гипермаркет. Для компании были разработаны сайт и мобильное приложение и т.д.</div>
                             </article>
                         </div>
-                        <div class="projects__column">
+                        <div class="projects__column filterDiv usability">
                             <article class="projects__item-five">
                                 <div class="projects__logo">
                                     <img src="img/projects/logo.png" alt="Logo">
@@ -110,7 +103,7 @@
                                 <div class="post-subtitle projects__subtitle">Онлайн гипермаркет. Для компании были разработаны сайт и мобильное приложение и т.д.</div>
                             </article>
                         </div>
-                        <div class="projects__column">
+                        <div class="projects__column filterDiv usability">
                             <article class="projects__item-six">
                                 <div class="projects__logo">
                                     <img src="img/projects/logo.png" alt="Logo">
@@ -156,5 +149,52 @@
         </main>
         @@include('html/footer.html', {})
     </div>
+
+    <script>
+        filterSelection("all")
+        function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("filterDiv");
+            if (c == "all") c = "";
+            for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+            }
+        }
+
+        function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+            }
+        }
+
+        function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+                arr1.splice(arr1.indexOf(arr2[i]), 1);
+            }
+            }
+            element.className = arr1.join(" ");
+        }
+
+
+        var btnContainer = document.getElementById("myBtn-filter");
+        var btns = btnContainer.getElementsByClassName("btn-filter");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function(){
+            var current = document.getElementsByClassName("active-filter");
+            current[0].className = current[0].className.replace(" active-filter", "");
+            this.className += " active-filter";
+            });
+        }
+        </script>
+
+    <script src="js/app.min.js"></script>
 </body>
 </html>

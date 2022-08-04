@@ -155,3 +155,43 @@ body {
 ._active {
     color: $mainHover;
 }
+
+
+
+
+.filterDiv {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+
+.btn-filter {
+    font-size: 1.3rem;
+    font-family: Rubik;
+    font-weight: 300;
+    background-color: $backGround-color-4;
+    color: $twoColor;
+    border-radius: 7px;
+    transition: all .2s linear;
+    padding: 10px 29px;
+    cursor: pointer;
+    padding: 10px 29px;
+    box-shadow: 2px 2px 21px 6px #171B2CBF;
+    height: 100%;
+}
+
+.btn-filter:hover {
+    background-color: $twoColor;
+    color: #303958;
+}
+
+.btn-filter.active-filter {
+    background-color: #2D76F9;
+    color: #ffffff;
+}
+
+
+
