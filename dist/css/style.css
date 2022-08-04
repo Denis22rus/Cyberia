@@ -49,6 +49,11 @@ h6 {
   z-index: 1000;
   transition: top 0.3s;
 }
+@media (max-width: 991.98px) {
+  .header {
+    background-color: #20212C;
+  }
+}
 .header__container {
   display: flex;
   justify-content: space-between;
@@ -76,6 +81,11 @@ h6 {
 .menu {
   display: flex;
   align-items: center;
+}
+@media (max-width: 991.98px) {
+  .menu {
+    display: none;
+  }
 }
 .menu__list {
   display: flex;
@@ -168,10 +178,22 @@ h6 {
   margin-bottom: 179px;
 }
 .services__item {
+  position: relative;
   border-radius: 7px;
   box-shadow: 2px 2px 21px 6px rgba(23, 27, 44, 0.7490196078);
   padding: 51px 56px;
   height: 100%;
+}
+@media (max-width: 991.98px) {
+  .services__item {
+    padding: 72px 32px;
+  }
+}
+.services__hover {
+  transition: all 0.2s linear;
+}
+.services__hover:hover {
+  padding: 51px 56px 51px 45px;
 }
 .services__items {
   display: flex;
@@ -181,6 +203,11 @@ h6 {
   padding: 0px 30px;
   position: relative;
   margin-bottom: 50px;
+}
+@media (max-width: 991.98px) {
+  .services__column {
+    padding: 0px 12px;
+  }
 }
 .services__header {
   display: flex;
@@ -193,10 +220,15 @@ h6 {
 .services__img img {
   max-width: 100%;
 }
+@media (max-width: 991.98px) {
+  .services__img img {
+    max-width: 45px;
+  }
+}
 .services__item-title {
   font-family: Rubik;
   font-weight: 500;
-  font-size: 1.85rem;
+  font-size: 2rem;
   line-height: 115.3846153846%;
   max-width: 232px;
 }
@@ -288,6 +320,11 @@ h6 {
 .lists-services {
   display: flex;
   margin: 0px -10px;
+}
+@media (max-width: 991.98px) {
+  .lists-services {
+    display: block;
+  }
 }
 .lists-services__lists {
   flex: 0 1 50%;
@@ -420,7 +457,7 @@ h6 {
 .news__item {
   border-radius: 7px;
   box-shadow: 2px 2px 21px 6px rgba(23, 27, 44, 0.7490196078);
-  padding: 0px 27px 27px;
+  padding: 0px 27px 79px;
   height: 100%;
   position: relative;
 }
@@ -934,6 +971,7 @@ textarea::-webkit-scrollbar-thumb {
   position: relative;
   background-color: #2D76F9;
   height: 820px;
+  transition: all 0.2s linear;
 }
 .team__img-big {
   position: absolute;
@@ -1031,8 +1069,11 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .blog {
-  padding: 291px 0px 0px;
+  padding: 220px 0px 0px;
   background: url(../img/blog/backgorund.jpg) no-repeat center/cover;
+}
+.blog__intro_right {
+  padding-bottom: 210px;
 }
 .blog__intro {
   display: flex;
@@ -1045,6 +1086,12 @@ textarea::-webkit-scrollbar-thumb {
   bottom: 0;
   right: 70px;
   z-index: 10;
+}
+.blog__intro-font {
+  position: relative;
+  right: 0px;
+  bottom: 0;
+  z-index: 1;
 }
 .blog__title {
   font-family: Rubik;
@@ -1233,6 +1280,11 @@ body {
   text-transform: uppercase;
   transition: background-color 0.2s linear;
 }
+@media (max-width: 991.98px) {
+  .btn {
+    padding: 24.5px 112px;
+  }
+}
 
 .btn:hover {
   background-color: #153a7d;
@@ -1260,6 +1312,11 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 991.98px) {
+  .header-with-arrow img {
+    display: none;
+  }
+}
 
 .title-body {
   font-family: Rubik;
@@ -1285,7 +1342,8 @@ body {
 .post-title {
   font-family: Rubik;
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 2rem;
+  line-height: 117.8571428571%;
 }
 
 .news__item-title {
@@ -1295,7 +1353,7 @@ body {
 .post-subtitle {
   font-weight: 400;
   line-height: 157.1428571429%;
-  color: inherit;
+  color: #ffffff;
 }
 
 .ft-center__sub {
@@ -1350,4 +1408,42 @@ body {
 .btn-filter.active-filter {
   background-color: #2D76F9;
   color: #ffffff;
+}
+
+.on-top {
+  margin: 30px 0px 0px;
+  float: right;
+  background-image: url(../img/btn/top.png);
+  width: 72px;
+  height: 72px;
+  transition: all 0.2s ease-in;
+}
+
+.on-top:hover {
+  margin: 30px 0px 0px;
+  float: right;
+  background-image: url(../img/btn/top-2.png);
+  width: 72px;
+  height: 72px;
+}
+
+.rup {
+  margin: 30px 20px 0px 0px;
+  float: right;
+  background-image: url(../img/btn/rup.png);
+  width: 72px;
+  height: 72px;
+  transition: all 0.2s linear;
+}
+
+.rup:hover {
+  margin: 30px 20px 0px 0px;
+  float: right;
+  background-image: url(../img/btn/rup-2.png);
+  width: 72px;
+  height: 72px;
+}
+
+.tell-my-padding {
+  padding: 95px 0px 95px;
 }

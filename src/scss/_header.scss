@@ -5,7 +5,9 @@
     display: block;
     z-index: 1000;
     transition: top 0.3s;
-    // background-color: #20212C;
+    @media (max-width: $md1) {
+        background-color: #20212C;
+    }
     &__container {
         display: flex;
         justify-content: space-between;
@@ -33,6 +35,9 @@
 .menu {
     display: flex;
     align-items: center;
+    @media (max-width: $md1) {
+        display: none;
+    }
     &__list {
         display: flex;
     }

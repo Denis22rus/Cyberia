@@ -1,6 +1,9 @@
 .blog {
-   padding: 291px 0px 0px;
+   padding: 220px 0px 0px;
    background: url(../img/blog/backgorund.jpg) no-repeat  center / cover;
+   &__intro_right {
+      padding-bottom: 210px;
+   }
    &__intro {
     display: flex;
    }
@@ -12,6 +15,12 @@
     bottom: 0;
     right: 70px;
     z-index: 10;
+   }
+   &__intro-font {
+      position: relative;
+      right: 0px;
+      bottom: 0;
+      z-index: 1;
    }
    &__title {
     font-family: Rubik;

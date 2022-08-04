@@ -85,6 +85,9 @@ body {
     border-radius: 35px;
     text-transform: uppercase;
     transition: background-color .2s linear;
+    @media (max-width: $md1) {
+        padding: 24.5px 112px;
+    }
 }
 .btn:hover {
     background-color: #153a7d;
@@ -108,6 +111,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    img {
+        @media (max-width: $md1) {
+            display: none;
+        }
+    }
 }
 .title-body {
     font-family: Rubik;
@@ -129,7 +137,8 @@ body {
 .post-title {
     font-family: Rubik;
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 2rem;
+    line-height: 33 / 28 * 100%;
 }
 .news__item-title {
     font-size: 24px;
@@ -137,7 +146,7 @@ body {
 .post-subtitle {
     font-weight: 400;
     line-height: 22 / 14 * 100%;
-    color: inherit;
+    color: #ffffff;
 }
 .ft-center__sub {
     margin-bottom: 23px;
@@ -192,6 +201,37 @@ body {
     background-color: #2D76F9;
     color: #ffffff;
 }
+.on-top {
+    margin: 30px 0px 0px;
+    float: right;
+    background-image: url(../img/btn/top.png);
+    width: 72px;
+    height: 72px;
+    transition: all .2s ease-in;
+}
+.on-top:hover {
+    margin: 30px 0px 0px;
+    float: right;
+    background-image: url(../img/btn/top-2.png);
+    width: 72px;
+    height: 72px;
+}
+.rup {
+    margin: 30px 20px 0px 0px;
+    float: right;
+    background-image: url(../img/btn/rup.png);
+    width: 72px;
+    height: 72px;
+    transition: all .2s linear;
+}
+.rup:hover {
+    margin: 30px 20px 0px 0px;
+    float: right;
+    background-image: url(../img/btn/rup-2.png);
+    width: 72px;
+    height: 72px;
+}
 
-
-
+.tell-my-padding {
+    padding: 95px 0px 95px;
+}

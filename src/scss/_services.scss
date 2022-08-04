@@ -10,10 +10,20 @@
         margin-bottom: 179px;
     }
     &__item {
+        position: relative;
         border-radius: 7px;
         box-shadow: 2px 2px 21px 6px #171B2CBF;
         padding: 51px 56px;
         height: 100%;
+        @media (max-width: $md1) {
+            padding: 72px 32px;
+        }
+    }
+    &__hover {
+        transition: all .2s linear;
+    }
+    &__hover:hover {
+        padding: 51px 56px 51px 45px;
     }
     &__items {
         display: flex;
@@ -23,6 +33,9 @@
         padding: 0px 30px;
         position: relative;
         margin-bottom: 50px;
+        @media (max-width: $md1) {
+            padding: 0px 12px;
+        }
     }
     &__header {
         display: flex;
@@ -33,12 +46,15 @@
         margin-right: 24px;
         img {
             max-width: 100%;
+            @media (max-width: $md1) {
+                max-width: 45px;
+            }
         }
     }
     &__item-title {
         font-family: Rubik;
         font-weight: 500;
-        font-size: 1.85rem;
+        font-size: 2rem;
         line-height: 30 / 26 * 100%;
         max-width: 232px;
     }
@@ -135,6 +151,9 @@
 .lists-services {
     display: flex;
     margin: 0px -10px;
+    @media (max-width: $md1) {
+        display: block;
+    }
     &__lists {
         flex: 0 1 50%;
         padding: 0px 10px;
