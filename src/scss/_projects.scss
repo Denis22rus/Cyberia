@@ -1,8 +1,11 @@
 .projects {
-    margin-bottom: 110px;
+    padding-bottom: 110px;
+    background-color: $Main-backGround;
     &__items {
         display: flex;
         margin: 0px -20px 0px;
+        position: relative;
+        z-index: 100;
     }
     &__items:last-child {
         display: flex;

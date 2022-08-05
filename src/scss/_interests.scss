@@ -2,6 +2,10 @@
     padding-top: 107px;
     padding-bottom: 160px;
     background-color: $backGround-color-3;
+    &__pos {
+        position: relative;
+        z-index: 100;
+    }
     &__pd {
         background-color: $liteColor;
         padding: 0px 0px 234px;

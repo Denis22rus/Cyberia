@@ -1,17 +1,25 @@
 .intro {
     padding-top: 269px;
     padding-bottom: 260px;
-    background-color: $backGround-color-1;
+    background-color: $backGround-color-3;
+    position: relative;
+    @media (max-width: $md1) {
+        padding-bottom: 350px;
+    }
     &__sub {
         max-width: 720px;
         font-size: 1.7rem;
         font-weight: 300;
         line-height: 32.68 / 24 * 100%;
+        position: relative;
+        z-index: 100;
     }
     &__pd {
         padding-top: 91px;
     }
     &__logo {
+        position: relative;
+        z-index: 100;
         display: flex;
         align-items: center;
 
@@ -32,6 +40,8 @@
         font-size: 3.92rem;
         line-height: 65 / 55 * 100%;
         max-width: 691px;
+        position: relative;
+        z-index: 100;
 
         margin-bottom: 90px;
     }

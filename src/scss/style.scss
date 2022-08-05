@@ -55,6 +55,9 @@ body {
     background-color: $Main-backGround;
     line-height: 22 / 14 * 100%;
 }
+body._lock {
+    overflow: hidden;
+}
 
 /* ----------------*/
 .wrapper {
@@ -75,6 +78,8 @@ body {
 }
 /* ----------------*/
 .btn {
+    position: relative;
+    z-index: 100;
     font-weight: 300;
     font-size: 0.92rem;
     cursor: pointer;
@@ -234,4 +239,22 @@ body {
 
 .tell-my-padding {
     padding: 95px 0px 95px;
+}
+
+.img-any-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    @media (max-width: $md1) {
+       width: 662px;
+       height: 687px;
+    }
+}
+
+.img-any-arrow {
+    position: absolute;
+    top: 131px;
+    right: 77px;
+    z-index: 1;
 }

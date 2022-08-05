@@ -1,5 +1,9 @@
 .services {
-    margin: 110px 0px 110px 0px;
+    padding: 110px 0px 110px 0px;
+    background-color: $Main-backGround;
+    &-color {
+        background-color: $backGround-color-3;
+    }
     &__project {
         margin: 0px 0px 424px;
     }
@@ -7,7 +11,7 @@
         margin-bottom: 78px;
     }
     &-service {
-        margin-bottom: 179px;
+        padding-bottom: 179px;
     }
     &__item {
         position: relative;
@@ -120,6 +124,8 @@
         text-align: center;
         justify-content: space-between;
         margin-bottom: 80px;
+        position: relative;
+        z-index: 100;
     }
     &__nav-item {
         display: block;
