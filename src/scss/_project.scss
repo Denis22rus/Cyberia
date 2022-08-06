@@ -59,3 +59,12 @@
 .img-h848 {
     height: 848px;
 }
+
+@media (max-width: $md1) {
+    .projects__items {
+        margin: 0px -12px 0px;
+    }
+    .projects__column {
+        padding: 0px 12px;
+    }
+}

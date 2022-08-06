@@ -115,3 +115,11 @@
         }
     }
 }
+
+@media (max-width: $md1) {
+    .article__img-city {
+        img {
+            max-width: 832px;
+        }
+    }
+}

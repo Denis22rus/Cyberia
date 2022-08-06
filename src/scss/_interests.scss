@@ -17,6 +17,9 @@
     &__column {
         flex: 0 1 33.333%;
         padding: 0px 20px;
+        @media (max-width: $md1) {
+            margin-bottom: 30px;
+        }
     }
     &__item {
         border-radius: 7px;
@@ -28,11 +31,21 @@
     &__img {
         text-align: center;
         margin-bottom: 94px;
-        img {
-            max-width: 100%;
-        }
     }
     &__title {
         margin-bottom: 26px;
+    }
+}
+
+@media (max-width: $md1) {
+    .interests__items {
+        display: block;
+    }
+    .interests__item {
+        display: flex;
+        padding: 41px 84px 44px 49px;
+    }
+    .interests__img {
+        margin: 0px 49px 0px 0px;
     }
 }

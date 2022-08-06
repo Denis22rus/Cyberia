@@ -1,6 +1,11 @@
 .tell-my {
     background-color: $backGround-color-3;
     padding: 12.5px 0px 177px;
+    @media (max-width: $md1) {
+        .tell-my__container {
+            max-width: 596px;
+        }
+    }
     &__sub {
         margin-top: 30px;
         max-width: 455px;
@@ -104,4 +109,15 @@ textarea::-webkit-scrollbar-thumb{
 }
 
 
-
+@media (max-width: $md1) {
+    .tell-my {
+        padding: 114px 0px 144px 0px;
+    }
+    .tell-my__items {
+        display: block;
+        max-width: 596px;
+    }
+    .tell-my__row-left {
+        padding: 0px 0px;
+    }
+}

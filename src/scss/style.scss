@@ -97,6 +97,14 @@ body._lock {
 .btn:hover {
     background-color: #153a7d;
 }
+.btn-auto {
+    display: none;
+    @media (max-width: $md1) {
+        display: block;
+        text-align: center;
+        margin-top: 50px;
+    }
+}
 .tell-my__btn {
     display: flex;
     max-height: 57px;
@@ -195,6 +203,10 @@ body._lock {
     padding: 10px 29px;
     box-shadow: 2px 2px 21px 6px #171B2CBF;
     height: 100%;
+    @media (max-width: $md1) {
+        font-size: 1rem;
+        padding: 7px 20px;
+    }
 }
 
 .btn-filter:hover {
@@ -257,4 +269,32 @@ body._lock {
     top: 131px;
     right: 77px;
     z-index: 1;
+}
+
+
+.project__none {
+    display: none;
+}
+
+.projects__block {
+    display: block;
+}
+
+@media (max-width: $md1) {
+    .projects__block {
+        display: none;
+    }
+    .project__none {
+        display: block;
+    }
+    .none {
+        display: none;
+    }
+    .block {
+        display: block;
+    }
+}
+
+.foot-text_md-1 {
+    text-align: center;
 }

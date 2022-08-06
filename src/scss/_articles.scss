@@ -34,3 +34,9 @@
         font-weight: 300;
     }
 }
+
+@media (max-width: $md1) {
+    .articles {
+        padding-bottom: 77px;
+    }
+}

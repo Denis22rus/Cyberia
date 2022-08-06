@@ -68,4 +68,12 @@
     &-items-mb1:last-child {
         margin-bottom: 424px;
     }
+
+}
+
+
+@media (max-width: $md1) {
+    .projects__column {
+        flex: 0 1 50%;
+    }
 }

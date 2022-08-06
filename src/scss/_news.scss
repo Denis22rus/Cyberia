@@ -64,3 +64,12 @@
         right: 27px;
     }
 }
+
+@media (max-width: $md1) {
+    .news__column {
+        flex: 0 1 50%;
+    }
+    .news__img {
+        margin: 0px 5px 33px;
+    }
+}

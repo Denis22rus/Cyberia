@@ -32,3 +32,25 @@
 
     }
 }
+
+
+@media (max-width: $md1) {
+    .footer__rows {
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+    .footer__left {
+        margin-right: 147px;
+    }
+    .footer__right {
+        margin-top: 53px;
+        display: flex;
+        justify-content: center;
+    }
+    .post-subtitle {
+        max-width: 540px;
+    }
+    .footer {
+        padding: 78px 0px 52px;
+    }
+}
