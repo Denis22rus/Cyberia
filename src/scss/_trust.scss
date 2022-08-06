@@ -23,4 +23,30 @@
         font-size: 1.142rem;
         font-weight: 400;
     }
+    &__items-2 {
+        display: none;
+    }
+}
+
+@media(max-width: $md1) {
+    .trust__mg-block {
+        display: flex;
+    }
+    .trust__items {
+        display: none;
+    }
+    .trust__column {
+        flex: 0 1 50%;
+        padding: 0px 0px;
+    }
+    .trust__items-2 {
+        display: flex;
+        margin-bottom: 86px;
+    }
+    .trust__items-2:last-child {
+        margin-bottom: 0px;
+    }
+    .trust {
+        padding-bottom: 121px;
+    }
 }

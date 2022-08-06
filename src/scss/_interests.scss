@@ -38,14 +38,20 @@
 }
 
 @media (max-width: $md1) {
-    .interests__items {
+    .interests__items-2 {
         display: block;
     }
-    .interests__item {
+    .interests__item-2 {
         display: flex;
         padding: 41px 84px 44px 49px;
     }
-    .interests__img {
+    .interests__img-2 {
         margin: 0px 49px 0px 0px;
+    }
+    .interests__items {
+        margin: 0px -10px;
+    }
+    .interests__column {
+        padding: 0px 10px;
     }
 }

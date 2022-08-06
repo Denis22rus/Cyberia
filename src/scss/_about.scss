@@ -15,7 +15,13 @@
         margin-bottom: 24px;
     }
     &__item {
-        padding: 48px 67px 111px;
+        padding: 48px 54px 111px;
+        @media (max-width: $md1) {
+            padding: 58px 31px 58px;
+        }
+        @media (max-width: 833px) {
+            padding: 58px 10px 58px;
+        }
     }
     &__img-items {
         display: flex;
@@ -24,6 +30,9 @@
     &__img-column {
         flex: 0 1 16.666%;
         padding: 0px 20px;
+        @media (max-width: $md1) {
+            flex: 0 1 20%;
+        }
     }
     &__img-item {
         height: 173px;

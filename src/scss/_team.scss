@@ -125,3 +125,24 @@
         left: 34px;
     }
 }
+
+@media (max-width: 1200px) {
+    .team__img-big {
+        height: 600px;
+    }
+    .team__img-font-girl {
+        max-width: 400px;
+    }
+    .team__img-big-man {
+        height: 600px;
+    }
+    .team__img-font-man {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: $md1) {
+    .team__img-big {
+        max-width: 220px;
+    }
+}
