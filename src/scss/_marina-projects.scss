@@ -1,6 +1,9 @@
 .marina-projects {
     background-color: $darkColor;
     padding: 214px 0px 268px;
+    @media (max-width: $md1) {
+        padding: 139px 0px 204px;
+    }
     &__title-mb {
         margin-bottom: 204px;
     }

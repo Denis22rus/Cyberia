@@ -52,3 +52,51 @@
     max-width: 598px;
    }
 }
+
+
+@media (max-width: $md1) {
+   .blog__intro-font {
+      left: -142px;
+      width: 507px;
+      height: 507px;
+   }
+   .blog__intro-girl {
+      height: 901px;
+      width: 350px;
+      left: 1px;
+   }
+   .blog__subtitle {
+      width: 322px;
+      font-size: 1.5rem;
+   }
+   .blog__intro_left {
+      width: 370px;
+   }
+}
+
+@media (max-width: $md2) {
+    .blog__intro {
+    display: flex;
+    flex-direction: column-reverse;
+   }
+    .blog__intro-girl {
+        left: 122px;
+        width: 250px;
+        height: 512px;
+   }
+   .blog__intro_right {
+        padding-bottom: 0px;
+   }
+   .blog__intro-font {
+        left: -59px;
+   }
+   .blog__subtitle {
+      width: 100%;
+  }
+    .blog__subtitle::after {
+        display: none;
+  }
+
+}
+
+

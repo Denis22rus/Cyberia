@@ -275,9 +275,19 @@ body._lock {
 .project__none {
     display: none;
 }
+.project__none-2 {
+    display: none;
+}
 
 .projects__block {
     display: block;
+}
+.projects__block-2 {
+    display: block;
+}
+
+.project__flex-2 {
+    display: none;
 }
 
 @media (max-width: $md1) {
@@ -293,6 +303,23 @@ body._lock {
     .block {
         display: block;
     }
+}
+
+@media (max-width: $md2) {
+    .projects__block-2 {
+        display: none;
+    }
+    .project__none-2 {
+        display: block;
+    }
+    .project__flex-2 {
+        margin-top: 15px;
+        display: flex;
+    }
+    .certificates__title-mb {
+        font-size: 2rem;
+      }
+
 }
 
 .foot-text_md-1 {

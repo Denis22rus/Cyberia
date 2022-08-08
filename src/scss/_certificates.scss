@@ -29,4 +29,27 @@
     &__mb {
         margin-bottom: 32px;
     }
+    &-1 {
+        width: 387px;
+        max-width: 100%;
+        height: 674px;
+    }
+    &-2 {
+        width: 387px;
+        max-width: 100%;
+        height: 590px;
+    }
+    &-3 {
+        width: 387px;
+        max-width: 100%;
+        height: 275px;
+    }
 }
+
+@media (max-width: $md1) {
+    .certificates__mb {
+        max-width: 100%;
+    }
+
+}
+

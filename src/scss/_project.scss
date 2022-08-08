@@ -49,6 +49,9 @@
 .flex-33 {
     flex: 0 1 33%;
     height: 253px;
+    @media (max-width: $md2) {
+        flex: 0 1 50%;
+    }
 }
 .img-h419 {
     height: 419px;
@@ -79,4 +82,17 @@
         height: 520px;
         max-height: 100%;
     }
+    .services {
+        padding-bottom: 94px;
+    }
+}
+
+@media (max-width: $md2) {
+    .projects__items {
+        display: block;
+    }
+    .projects__items:last-child {
+        display: block;
+    }
+
 }

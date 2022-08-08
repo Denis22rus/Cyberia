@@ -5,6 +5,9 @@
     &__items {
         position: relative;
         top: -100px;
+        @media (max-width: $md2) {
+            display: block;
+        }
     }
     &__post-title {
         font-family: Rubik;
@@ -26,12 +29,16 @@
     &__img-items {
         display: flex;
         margin: 0px -20px;
+
     }
     &__img-column {
         flex: 0 1 16.666%;
         padding: 0px 20px;
         @media (max-width: $md1) {
             flex: 0 1 20%;
+        }
+        @media (max-width: $md2) {
+            flex: 0 1 25%;
         }
     }
     &__img-item {

@@ -28,6 +28,9 @@
     }
     &__items {
         display: flex;
+        @media (max-width: $md2) {
+            display: block;
+        }
     }
     &__column {
         flex: 0 1 50%;
@@ -177,12 +180,6 @@
 }
 
 @media (max-width: $md1) {
-    .services__items-items {
-        margin: 0px -12px;
-    }
-
-}
-@media (max-width: $md1) {
     .services__item {
         padding: 72px 32px;
     }
@@ -192,5 +189,24 @@
     .services__project {
         margin-bottom: 138px;
     }
-
+    .services {
+        padding-bottom: 0px;
+    }
+    .services__items-items {
+        margin: 0px -12px;
+    }
 }
+
+@media (max-width: $md2) {
+    .services__nav {
+        flex-wrap: wrap;
+    }
+    .btn-filter {
+        margin-bottom: 17px;
+    }
+    .services__items-items {
+        margin: -17px -12px 0px;
+        display: block;
+    }
+}
+

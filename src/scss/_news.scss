@@ -68,8 +68,29 @@
 @media (max-width: $md1) {
     .news__column {
         flex: 0 1 50%;
+        @media (max-width :$md2) {
+            flex: 0 1 100%
+        }
     }
     .news__img {
-        margin: 0px 5px 33px;
+        margin: 0px 0px 33px;
+    }
+    .news__img {
+        img {
+            width: 100%;
+        }
+    }
+    .news__item {
+        padding: 0px 0px 79px;
+    }
+    .news__date-time {
+        padding: 0px 32px;
+    }
+    .news__item-title {
+        padding: 0px 32px;
+    }
+    .news__item-subtitle {
+        padding: 0px 32px;
     }
 }
+

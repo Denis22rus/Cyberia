@@ -32,6 +32,9 @@
         flex: 0 1 320px;
         margin-left: 40px;
         align-items: center;
+        @media (max-width: $md2) {
+            display: none;
+        }
     }
 }
 
@@ -116,6 +119,7 @@ textarea::-webkit-scrollbar-thumb{
     .tell-my__items {
         display: block;
         max-width: 596px;
+        margin: 0px 0px;
     }
     .tell-my__row-left {
         padding: 0px 0px;

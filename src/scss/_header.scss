@@ -95,12 +95,9 @@
 
 
 @media (max-width: $md1) {
-
     .tell__body {
         display: block;
     }
-
-
     .tell__list {
         margin: 172px 0px 306px 64px;
         display: block;
@@ -121,8 +118,6 @@
         margin: 0px 0px 68px 0px;
         background-color: #2B2D3A;
     }
-
-
     .tel__item {
         margin-bottom: 83px;
         margin-left: 0px;
@@ -135,7 +130,6 @@
         font-weight: 400;
         color: #9AA8BA;
     }
-
     .menu__list{
         margin: 172px 0px 0px 64px;
         display: block;
@@ -166,12 +160,43 @@
     ._active {
         transform: translate(0px, 0%);
     }
+}
 
+@media (max-width: $md2) {
+    .tell__list::before {
+        width: 303px;
+    }
+    .tell__list:after {
+        width: 303px;
+    }
+}
+
+@media (max-width: $md3) {
+    .header__logo {
+        left: 27px;
+    }
+    .menu__list {
+        margin: 82px 0px 0px 24px;
+    }
+    .tell__list {
+        margin: 82px 0px 96px 24px;
+    }
+    .tell__link {
+        font-size: 1.2rem;
+    }
+    .menu__link {
+        font-size: 1.2rem;
+    }
+    .menu__item {
+        margin-bottom: 30px;
+    }
+    .tel__item {
+        margin-bottom: 30px;
+    }
 
 }
 
 
-// Burger
 
 .icon-menu {
     display: none;

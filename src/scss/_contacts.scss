@@ -5,6 +5,9 @@
         align-items: center;
         display: flex;
         margin: 0px -15px;
+        @media (max-width: $md2) {
+            display: block;
+        }
     }
     &__column-left {
         flex: 0 1 40%;
@@ -14,6 +17,9 @@
         border-radius: 7px;
         box-shadow: 2px 2px 21px 6px #171B2CBF;
         padding: 60px 99px 105px 52px;
+        @media (max-width: $md2) {
+            margin-bottom: 25px;
+        }
     }
     &__title {
         font-family: Rubik;
@@ -62,5 +68,15 @@
     }
     &-mappin {
         background: url(../img/contacts/MapPin.png) 0px -3px no-repeat;
+    }
+}
+
+@media (max-width: $md1) {
+    .contacts__item-left {
+        padding: 53px 47px 90px 27px;
+    }
+    .contacts__list {
+        font-size: 1.3rem;
+        padding-left: 57px;
     }
 }

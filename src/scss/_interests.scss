@@ -37,6 +37,7 @@
     }
 }
 
+
 @media (max-width: $md1) {
     .interests__items-2 {
         display: block;
@@ -44,6 +45,10 @@
     .interests__item-2 {
         display: flex;
         padding: 41px 84px 44px 49px;
+        @media (max-width: $md2) {
+            display: block;
+
+        }
     }
     .interests__img-2 {
         margin: 0px 49px 0px 0px;
@@ -53,5 +58,15 @@
     }
     .interests__column {
         padding: 0px 10px;
+    }
+}
+
+
+@media(max-width: $md2) {
+    .interests__img-2 {
+        text-align: left;
+    }
+    .interests__img {
+        text-align: left;
     }
 }

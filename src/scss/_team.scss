@@ -16,6 +16,9 @@
         display: flex;
         margin: 0px -15px;
     }
+    &__column {
+        padding: 0px 15px;
+    }
     &__items-mb {
         margin-bottom: 121px;
     }
@@ -40,9 +43,7 @@
         font-weight: 400;
         line-height: 33 / 24 * 100%;
     }
-    &__column {
-        padding: 0px 15px;
-    }
+
     &__column-50 {
         flex: 0 1 50%;
     }
@@ -81,6 +82,9 @@
     }
     &__column-33 {
         flex: 0 1 33.333%;
+        @media(max-width: 764px) {
+             flex: 0 1 50%;
+        }
     }
     &__item-gray {
         position: relative;
@@ -126,6 +130,13 @@
     }
 }
 
+@media (max-width: 1250px) {
+    .team__width-arth {
+        max-width: 300px;
+        height: 553px;
+     }
+}
+
 @media (max-width: 1200px) {
     .team__img-big {
         height: 600px;
@@ -139,10 +150,101 @@
     .team__img-font-man {
         max-width: 300px;
     }
+    .team__img-gray-font {
+        max-width: 250px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 941px) {
+    .team__blog {
+        padding: 10px 8px;
+    }
+    .team__img-big {
+        left: 100px;
+    }
+    .team__img-font-girl {
+        left: -29px;
+    }
+    .team__img-big-man {
+        left: 0px;
+        width: 295px;
+        height: 668px;
+    }
+    .team__img-font-man {
+        left: 0px;
+    }
+}
+    .girl {
+        display: block;
+    }
+    @media(max-width: 764px) {
+        .girl {
+            display: none;
+        }
+    }
+
+@media (max-width: 714px) {
+    .team__item-blue {
+        height: 553px;
+    }
+    .team__items-title {
+        font-size: 1.8rem;
+    }
+    .team__img-big {
+        height: 367px;
+    }
+    .team__img-font-girl {
+        width: 300px;
+    }
+    .team__img-big-man {
+        width: 200px;
+        height: 367px;
+    }
+    .team__img-font-man {
+        width: 200px;
+    }
+}
+
+@media (max-width: 535px) {
+    .team__img-big {
+        left: 5px;
+    }
+    .team__img-font-girl {
+        width: 200px;
+        left: 0px;
+    }
 }
 
 @media (max-width: $md1) {
     .team__img-big {
         max-width: 220px;
     }
+    .team__blog-gray {
+        padding: 19px 0px 0px 26px;
+    }
+    .team__items {
+        margin: 0px -10px;
+    }
+    .team__column {
+        padding: 0px 10px;
+    }
+    .team__items-mb {
+        margin-bottom: 121px;
+    }
+    .team__item-gray {
+        height: 425px;
+    }
+    .team__img-gray-girl-one {
+        width: 185px;
+        height: 370px;
+    }
+    .team__img-gray-font {
+        width: 190px;
+        height: 190px;
+    }
+    .team__items-title-b-g {
+        font-size: 1.5rem;
+    }
+
 }
