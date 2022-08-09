@@ -49,11 +49,13 @@
     }
 }
 
+
 @media (max-width: $md1) {
     .certificates__mb {
         max-width: 100%;
     }
 }
+
 
 @media (max-width: $md3) {
     .certificates__subtititle {
@@ -78,6 +80,5 @@
     .certificates__column {
         padding: 0px 8px;
     }
-
 }
 

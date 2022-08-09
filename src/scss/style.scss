@@ -96,8 +96,6 @@ body._lock {
     @media (max-width: $md1) {
         padding: 16px 47px;
     }
-
-
 }
 .btn:hover {
     background-color: #153a7d;
@@ -197,19 +195,12 @@ body._lock {
 ._active {
     color: $mainHover;
 }
-
-
-
-
 .filterDiv {
     display: none;
 }
-
 .show {
     display: block;
 }
-
-
 .btn-filter {
     font-size: 1.3rem;
     font-family: Rubik;
@@ -228,12 +219,10 @@ body._lock {
         padding: 7px 20px;
     }
 }
-
 .btn-filter:hover {
     background-color: $twoColor;
     color: #303958;
 }
-
 .btn-filter.active-filter {
     background-color: #2D76F9;
     color: #ffffff;
@@ -278,7 +267,6 @@ body._lock {
 .tell-my-padding {
     padding: 95px 0px 95px;
 }
-
 .img-any-title {
     position: absolute;
     top: 0;
@@ -289,15 +277,12 @@ body._lock {
        height: 687px;
     }
 }
-
 .img-any-arrow {
     position: absolute;
     top: 131px;
     right: 77px;
     z-index: 1;
 }
-
-
 .project__none {
     display: none;
 }
@@ -320,6 +305,7 @@ body._lock {
     display: none;
 }
 
+
 @media (max-width: $md1) {
     .project__span {
         display: none;
@@ -338,6 +324,7 @@ body._lock {
     }
 }
 
+
 @media (max-width: $md2) {
     .projects__block-2 {
         display: none;
@@ -354,6 +341,7 @@ body._lock {
       }
 }
 
+
 @media (max-width: $md3) {
     .projects__block-3 {
         display: none;
@@ -363,6 +351,7 @@ body._lock {
 .foot-text_md-1 {
     text-align: center;
 }
+
 
 @media (max-width: $md3) {
     .certificates__title-mb {

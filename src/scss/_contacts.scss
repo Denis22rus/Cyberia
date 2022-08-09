@@ -59,6 +59,7 @@
     }
 }
 
+
 .list {
     &-phone {
         background: url(../img/contacts/Phone.png) 0px -5px no-repeat;
@@ -71,6 +72,7 @@
     }
 }
 
+
 @media (max-width: $md1) {
     .contacts__item-left {
         padding: 53px 47px 90px 27px;
@@ -80,6 +82,7 @@
         padding-left: 57px;
     }
 }
+
 
 @media (max-width: $md3) {
     .contacts {

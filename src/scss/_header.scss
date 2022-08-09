@@ -45,6 +45,7 @@
     }
 }
 
+
 .menu {
     display: flex;
     align-items: center;
@@ -88,6 +89,7 @@
         width: 100%;
     }
 }
+
 
 .tell__body {
     display: none;
@@ -162,6 +164,7 @@
     }
 }
 
+
 @media (max-width: $md2) {
     .tell__list::before {
         width: 303px;
@@ -170,6 +173,7 @@
         width: 303px;
     }
 }
+
 
 @media (max-width: $md3) {
     .header__logo {
@@ -195,7 +199,6 @@
     }
 
 }
-
 
 
 .icon-menu {

@@ -63,6 +63,7 @@
     height: 848px;
 }
 
+
 @media (max-width: $md1) {
     .projects__items {
         margin: 0px -12px 0px;
@@ -87,6 +88,7 @@
     }
 }
 
+
 @media (max-width: $md2) {
     .projects__items {
         display: block;
@@ -95,6 +97,7 @@
         display: block;
     }
 }
+
 
 @media (max-width: $md3) {
     .project__title-mb {

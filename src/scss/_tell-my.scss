@@ -38,6 +38,7 @@
     }
 }
 
+
 .form {
     flex: 0 1 50%;
     padding: 0px 40px;
@@ -92,10 +93,12 @@
     }
 }
 
+
 textarea{
 	overflow: auto;
 	overflow-x: hidden;
 }
+
 
 textarea::-webkit-scrollbar-track{
 	background-color: #EEF3FF;
@@ -105,6 +108,7 @@ textarea::-webkit-scrollbar{
 	width: 5px;
 	background-color: #F5F5F5;
 }
+
 
 textarea::-webkit-scrollbar-thumb{
 	border-radius: 100px;
@@ -125,6 +129,7 @@ textarea::-webkit-scrollbar-thumb{
         padding: 0px 0px;
     }
 }
+
 
 @media (max-width: $md3) {
     .form__items {

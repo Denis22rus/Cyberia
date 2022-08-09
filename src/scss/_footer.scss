@@ -20,6 +20,7 @@
     }
 }
 
+
 .ft-center {
     display: flex;
     margin: 0px -30px;
@@ -29,7 +30,6 @@
     &__sub {
         display: block;
         color: inherit;
-
     }
 }
 
@@ -55,6 +55,7 @@
     }
 }
 
+
 @media (max-width: $md2) {
     .footer__rows {
         display: block;
@@ -75,6 +76,7 @@
         font-size: 1.28rem;
     }
 }
+
 
 @media (max-width: $md3) {
     .footer {
