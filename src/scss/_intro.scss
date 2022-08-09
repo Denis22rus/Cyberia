@@ -57,7 +57,23 @@
 }
 
 @media (max-width: $md3) {
+    .intro__pd {
+        padding: 130px 0px 200px;
+    }
     .intro__title {
+        max-width: 373px;
         font-size: 2rem;
     }
+    .intro__title-big {
+        font-size: 1.5rem;
+        margin: 23px 0px 17px;
+    }
+    .intro__sub {
+        font-size: 0.9rem;
+    }
+    .intro__logo-2 {
+        width: 73px;
+        height: 21px;
+    }
+
 }

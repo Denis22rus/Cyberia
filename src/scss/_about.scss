@@ -47,3 +47,15 @@
         box-shadow: 2px 2px 21px 6px #171B2CBF;
     }
 }
+
+@media (max-width: $md3) {
+    .m-interests__item {
+        padding: 34px 18px 23px;
+    }
+    .m-interests__items {
+        top: -40px;
+    }
+    .m-interests__img-item {
+        height: 72px;
+    }
+}

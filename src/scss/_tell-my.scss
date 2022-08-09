@@ -125,3 +125,34 @@ textarea::-webkit-scrollbar-thumb{
         padding: 0px 0px;
     }
 }
+
+@media (max-width: $md3) {
+    .form__items {
+        display: block;
+    }
+    .tell-my__sub {
+        display: none;
+    }
+    .tell-my__row-left {
+        align-items: center;
+        display: flex;
+    }
+    .tell-my__img {
+        margin-right: 20px;
+    }
+    .tell-my__subtitle {
+        display: block;
+    }
+    .tell-my__row-left {
+        align-items: center;
+        display: flex;
+    }
+    .tell-my {
+        padding: 40px 0px 39px;
+    }
+    .tell-my__subtitle {
+        margin-left: 0px;
+        text-align: center;
+    }
+}
+

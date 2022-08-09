@@ -5,3 +5,12 @@
         margin-bottom: 120px;
     }
 }
+
+@media (max-width: $md3) {
+    .marina-articles {
+        padding: 57px 0px 62px;
+    }
+    .marina-articles__title-mb {
+        margin-bottom: 49px;
+    }
+}

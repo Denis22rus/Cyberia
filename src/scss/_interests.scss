@@ -70,3 +70,15 @@
         text-align: left;
     }
 }
+
+@media(max-width: $md3) {
+    .interests__item-2 {
+        padding: 30px 42px 32px 42px;
+    }
+    .interests__img  {
+        margin: 0px 0px 19px 0px;
+    }
+    .interests {
+        padding-bottom: 57px;
+    }
+}

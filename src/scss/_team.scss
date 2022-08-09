@@ -248,3 +248,24 @@
     }
 
 }
+
+@media (max-width: $md3) {
+    .team {
+        padding: 93px 0px 121px;
+    }
+    .team__subtitle {
+        font-size: 1rem;
+        margin-bottom: 37px;
+    }
+    .team__items-title {
+        margin-bottom: 13px;
+        font-size: 1rem;
+    }
+    .team__items-subtitle {
+        font-size: 0.7rem;
+    }
+    .team__items-mb {
+        margin-bottom: 37px;
+    }
+
+}

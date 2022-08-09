@@ -99,4 +99,28 @@
 
 }
 
+@media (max-width: $md3) {
+    .blog {
+        padding: 176px 0px 0px;
+    }
+    .blog__title {
+        font-size: 1.9rem;
+    }
+    .blog__subtitle {
+        font-size: 0.9rem;
+    }
+    .blog__intro-font {
+        width: 253px;
+        height: 253px;
+        left: 73px;
+    }
+    .blog__intro-girl {
+        width: 215px;
+        height: 512px;
+    }
+    .blog__intro_left {
+        height: 446px;
+    }
+}
+
 

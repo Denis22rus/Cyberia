@@ -4,9 +4,9 @@
     &-color {
         background-color: $backGround-color-3;
     }
-    &__project {
-        margin: 0px 0px 424px;
-    }
+    // &__project {
+    //     margin: 0px 0px 424px;
+    // }
     &__title-mb {
         margin-bottom: 78px;
     }
@@ -184,7 +184,7 @@
         padding: 72px 32px;
     }
     .services__img {
-        margin-right: 5px;
+        margin-right: 15px;
     }
     .services__project {
         margin-bottom: 138px;
@@ -210,3 +210,38 @@
     }
 }
 
+
+@media (max-width: $md3) {
+    .services__item-title {
+        font-size: 1.5rem;
+    }
+    .services__item {
+        padding: 20px;
+    }
+    .services__header {
+        margin-bottom: 8px;
+    }
+    .services__item-subtitle {
+        font-size: 0.9rem;
+        margin-bottom: 0px;
+    }
+    .services__item-title {
+        margin-bottom: 0px;
+        font-size: 1.1rem;
+    }
+    .services_p {
+        font-size: 2rem;
+    }
+    .services__column {
+        margin-bottom: 19px;
+    }
+    .services__items-items {
+        margin: 0px;
+    }
+    .services__width {
+        margin-top: 39px;
+    }
+    .services__title {
+        font-size: 1.5rem;
+    }
+}

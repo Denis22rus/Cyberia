@@ -22,6 +22,7 @@
     &__img {
         margin: 0px -26px 33px;
         img {
+            border-radius: 7px;
             max-width: 100%;
         }
     }
@@ -94,3 +95,20 @@
     }
 }
 
+@media (max-width: $md3) {
+    .news__date {
+        font-size: 0.9rem;
+    }
+    .news__time {
+        font-size: 0.9rem;
+    }
+    .news__date-time {
+        align-items: center;
+    }
+    .news__date {
+        line-height: 180%;
+    }
+    .news__time {
+        line-height: 180%;
+    }
+}

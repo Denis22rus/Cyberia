@@ -75,3 +75,18 @@
         font-size: 1.28rem;
     }
 }
+
+@media (max-width: $md3) {
+    .footer {
+        padding: 30px 0px 37px;
+    }
+    .footer__logo {
+        img {
+            width: 102px;
+            height: 21px;
+        }
+    }
+    .foot-text_md-1 {
+        font-size: 0.9rem;
+    }
+}

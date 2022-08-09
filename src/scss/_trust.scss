@@ -50,3 +50,20 @@
         padding-bottom: 121px;
     }
 }
+
+@media(max-width: $md3) {
+    .trust__twitch {
+        top: -29px;
+    }
+    .trust__img {
+        width: 101px;
+        height: 22px;
+    }
+    .trust__tw-img {
+        width: 86px;
+        height: 53px;
+    }
+    .trust__subtitle {
+        font-size: 0.9rem
+    }
+}

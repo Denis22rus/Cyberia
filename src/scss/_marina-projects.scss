@@ -8,3 +8,13 @@
         margin-bottom: 204px;
     }
 }
+
+@media (max-width: $md3) {
+    .marina-projects {
+        padding: 59px 0px 91px;
+    }
+    .marina-projects__title-mb {
+        margin-bottom: 91px;
+    }
+
+}
